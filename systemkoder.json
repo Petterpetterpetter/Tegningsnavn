@@ -84,7 +84,7 @@
   { "kode": "288", "navn": "Utstyr og komplettering" },
   { "kode": "289", "navn": "Andre trapper, balkonger m.m." },
   { "kode": "290", "navn": "Andre bygningsmessige deler" },
-  { "kode": "291", "navn": "Hull, tettinger" }
+  { "kode": "291", "navn": "Hull, tettinger" },
   
   { "kode": "300", "navn": "VVS-installasjoner, generelt" },
 
@@ -161,7 +161,7 @@
   { "kode": "386", "navn": "Innendørs fontener og springvann" },
   { "kode": "389", "navn": "Andre deler for vannbehandling" },
 
-  { "kode": "390", "navn": "Andre VVS-installasjoner" }
+  { "kode": "390", "navn": "Andre VVS-installasjoner" },
   { "kode": "400", "navn": "Elkraftinstallasjoner, generelt" },
 
   { "kode": "410", "navn": "Basisinstallasjon for elkraft" },
@@ -266,7 +266,7 @@
   { "kode": "578", "navn": "Instrumentering for analyse" },
   { "kode": "579", "navn": "Annen instrumentering" },
 
-  { "kode": "590", "navn": "Andre installasjoner for ekom og automatisering" }
+  { "kode": "590", "navn": "Andre installasjoner for ekom og automatisering" },
   
   { "kode": "600", "navn": "Andre installasjoner, generelt" },
 
