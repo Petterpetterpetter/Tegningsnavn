@@ -1,1 +1,13 @@
-[]
+[
+  { "kode": "Kravoppnåelse", "navn": "Kravoppnåelse" },
+  { "kode": "Drift", "navn": "Drift" },
+  { "kode": "Vedlikehold", "navn": "Vedlikehold" },
+  { "kode": "Identifikasjon", "navn": "Identifikasjon" },
+  { "kode": "Produktinformasjon", "navn": "Produktinformasjon" },
+  { "kode": "Attestasjon", "navn": "Attestasjon" },
+  { "kode": "Bruksanvisning", "navn": "Bruksanvisning" },
+  { "kode": "Beskrivelse", "navn": "Beskrivelse" },
+  { "kode": "Protokoll", "navn": "Protokoll" },
+  { "kode": "Tegning", "navn": "Tegning" },
+  { "kode": "Bilde", "navn": "Bilde" }
+]
