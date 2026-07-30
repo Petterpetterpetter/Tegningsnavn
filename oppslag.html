@@ -1,0 +1,83 @@
+<!doctype html><html lang="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kodeverksøk</title><style>
+:root{
+  --b:#0f62fe;--bg:#f4f7fb;--card:#fff;--line:#d9e2ec;--ink:#1b2430;--muted:#566579;
+  --shadow:0 10px 28px rgba(16,24,40,.08);
+}
+*{box-sizing:border-box}
+html,body{min-height:100%}
+body{
+  margin:0;
+  font-family:Segoe UI,Arial,sans-serif;
+  background:var(--bg);
+  color:var(--ink);
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+header{
+  background:linear-gradient(135deg,#09356f,#0f62fe);
+  color:#fff;
+  padding:28px;
+}
+header h1{margin:0 0 8px;font-size:30px}
+header p{margin:0;color:#e7f0ff;max-width:900px;line-height:1.45}
+main{
+  width:100%;
+  max-width:1500px;
+  margin:0 auto;
+  padding:18px;
+  flex:1 0 auto;
+}
+.status,.grid{display:grid;gap:16px}
+.status{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-bottom:18px}
+.grid{grid-template-columns:repeat(auto-fit,minmax(420px,1fr))}
+.card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:16px;
+  box-shadow:var(--shadow);
+  overflow:hidden;
+}
+.card h2{margin:0 0 8px;color:#102a56}
+.card p{margin:0 0 12px;color:var(--muted);line-height:1.45}
+.ok{color:#148247}.bad{color:#b42318}
+input{
+  display:block;
+  width:100%;
+  max-width:100%;
+  padding:11px 12px;
+  border:1px solid var(--line);
+  border-radius:10px;
+  font:inherit;
+  background:#fff;
+}
+input:focus{outline:2px solid rgba(15,98,254,.18);border-color:#7aa7ff}
+.results{margin-top:10px;max-height:360px;overflow:auto;border-radius:10px}
+.hit{padding:10px 8px;border-bottom:1px solid #eef2f6}
+.hit:last-child{border-bottom:0}
+.meta{font-size:.9em;color:#555;margin-top:4px;line-height:1.35}
+footer{
+  flex-shrink:0;
+  margin-top:auto;
+  background:#fff;
+  border-top:1px solid var(--line);
+  padding:20px 28px;
+  color:var(--muted);
+}
+footer h3{margin:0 0 6px;color:#102a56}
+footer p{margin:0;line-height:1.45}
+@media(max-width:640px){
+  header{padding:22px 16px}
+  main{padding:12px}
+  .grid{grid-template-columns:1fr}
+  .status{grid-template-columns:1fr}
+}
+</style></head><body><header><h1>Kodeverksøk</h1><p>Dummy ingress. Beskriv verktøyet her.</p></header><main><div id="status" class="status"></div><div class="grid" id="cards"></div></main><footer><h3>Footer</h3><p>Dummytekst som kan erstattes.</p></footer><script>
+const defs=[['eiendommer','Eiendommer','Dummy beskrivelse'],['bygninger','Bygninger','Dummy beskrivelse'],['fag','Fag','Dummy beskrivelse'],['systemkoder','Systemkoder','Dummy beskrivelse'],['tegningstyper','Tegningstyper','Dummy beskrivelse'],['informasjonstyper','Informasjonstyper','Dummy beskrivelse']];
+const data={};
+async function load(){const st=document.getElementById('status');for(const d of defs){try{const r=await fetch(d[0]+'.json');const j=await r.json();data[d[0]]=j;st.innerHTML+=`<div class=card><span class=ok>✓ ${d[0]}.json (${j.length})</span></div>`;}catch(e){data[d[0]]=[];st.innerHTML+=`<div class=card><span class=bad>✗ ${d[0]}.json</span></div>`;}}renderCards();}
+function renderCards(){const c=document.getElementById('cards');defs.forEach(d=>{c.innerHTML+=`<div class=card><h2>${d[1]}</h2><p>${d[2]}</p><input placeholder="Søk..." oninput="search('${d[0]}',this.value)"><div id="r_${d[0]}" class="results"></div></div>`})}
+function search(type,q){q=q.toLowerCase();const el=document.getElementById('r_'+type);const arr=data[type]||[];let hits=arr.filter(x=>JSON.stringify(x).toLowerCase().includes(q)).slice(0,100);let html='';hits.forEach(h=>{html+=`<div class=hit><b>${h.kode||''} ${h.navn||''}</b>`; if(type==='bygninger'){html+=`<div class=meta>Eiendom: ${h.eiendomsnummer||''} ${h.eiendomsnavn||''}</div>`;} if(type==='eiendommer'){const buildings=(data.bygninger||[]).filter(b=>b.eiendomsnummer===h.kode); if(buildings.length){html+='<div class=meta><b>Tilknyttede bygg</b><br>'+buildings.slice(0,50).map(b=>b.kode+' - '+b.navn).join('<br>')+'</div>';}} html+='</div>';}); el.innerHTML=html||'<div class=meta>Ingen treff</div>';}
+load();
+</script></body></html>
