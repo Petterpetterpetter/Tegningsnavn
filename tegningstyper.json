@@ -1,1 +1,11 @@
-[]
+[
+  { "kode": "10", "navn": "Utendørs" },
+  { "kode": "20", "navn": "Plantegning" },
+  { "kode": "30", "navn": "Komplettering" },
+  { "kode": "40", "navn": "Snitt, oppriss, fasader" },
+  { "kode": "50", "navn": "Detaljer" },
+  { "kode": "60", "navn": "Skjema" },
+  { "kode": "70", "navn": "Prinsipp" },
+  { "kode": "80", "navn": "Perspektiv, modell" },
+  { "kode": "90", "navn": "Utsmykking" }
+]
