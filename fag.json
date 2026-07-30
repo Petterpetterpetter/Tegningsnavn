@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "kode": "A",
+    "navn": "Arkitekt"
+  },
+  {
+    "kode": "B",
+    "navn": "Byggeteknikk"
+  },
+  {
+    "kode": "C",
+    "navn": "Akustikk"
+  },
+  {
+    "kode": "D",
+    "navn": "Andre fag"
+  },
+  {
+    "kode": "E",
+    "navn": "Elektro"
+  },
+  {
+    "kode": "F",
+    "navn": "Brann"
+  },
+  {
+    "kode": "G",
+    "navn": "Geoteknikk og grunnarbeider"
+  },
+  {
+    "kode": "H",
+    "navn": "Heis"
+  },
+  {
+    "kode": "I",
+    "navn": "Interiørarkitekt"
+  },
+  {
+    "kode": "L",
+    "navn": "Landskap, terreng"
+  },
+  {
+    "kode": "M",
+    "navn": "Maskin"
+  },
+  {
+    "kode": "O",
+    "navn": "Oppmåling"
+  },
+  {
+    "kode": "P",
+    "navn": "Prosess"
+  },
+  {
+    "kode": "S",
+    "navn": "Sikkerhet, security"
+  },
+  {
+    "kode": "T",
+    "navn": "Ekom og Automatisering"
+  },
+  {
+    "kode": "U",
+    "navn": "Utsmykking"
+  },
+  {
+    "kode": "V",
+    "navn": "Varme, ventilasjon og sanitær"
+  },
+  {
+    "kode": "W",
+    "navn": "Vei, trafikk"
+  },
+  {
+    "kode": "X",
+    "navn": "Utarbeidet av statsbygg"
+  },
+  {
+    "kode": "Y",
+    "navn": "Utarbeidet av entreprenør/leverandør"
+  },
+  {
+    "kode": "Z",
+    "navn": "Teknisk infrastruktur"
+  }
+]
