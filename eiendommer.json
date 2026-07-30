@@ -1,1 +1,4446 @@
-[]
+[
+  {
+    "kode": "00046",
+    "navn": "Lillestrøm Trafikkstasjon"
+  },
+  {
+    "kode": "00047",
+    "navn": "Øvre Torv, Sandvika,trygdegården"
+  },
+  {
+    "kode": "00049",
+    "navn": "Tinghuset i Sandvika"
+  },
+  {
+    "kode": "00050",
+    "navn": "Høgskolen i Telemark - Skien"
+  },
+  {
+    "kode": "00051",
+    "navn": "Tollbugt. 31, Oslo"
+  },
+  {
+    "kode": "00052",
+    "navn": "Møre og Romsdal tingrett - rettsted Volda. (Avhendet 2024)"
+  },
+  {
+    "kode": "00053",
+    "navn": "Tungasletta 2"
+  },
+  {
+    "kode": "00054",
+    "navn": "Nord Universitet Nesna"
+  },
+  {
+    "kode": "00055",
+    "navn": "Statens hus i Steinkjer"
+  },
+  {
+    "kode": "00056",
+    "navn": "Statens hus i Vadsø"
+  },
+  {
+    "kode": "00057",
+    "navn": "Vegadministrasjonen i Vadsø"
+  },
+  {
+    "kode": "00058",
+    "navn": "UiT, Campus Narvik"
+  },
+  {
+    "kode": "00059",
+    "navn": "Værvarslinga for Nord-Norge"
+  },
+  {
+    "kode": "00060",
+    "navn": "Regjeringskvart. Øvrige Bygg"
+  },
+  {
+    "kode": "00061",
+    "navn": "Victoria Terr. - Utenriksdep."
+  },
+  {
+    "kode": "00062",
+    "navn": "Gimlekomplekset, Oslo"
+  },
+  {
+    "kode": "00064",
+    "navn": "Bergen Tinghus"
+  },
+  {
+    "kode": "00066",
+    "navn": "Vegadministrasjonen i Hordaland"
+  },
+  {
+    "kode": "00067",
+    "navn": "Leikanger kontorsted"
+  },
+  {
+    "kode": "00068",
+    "navn": "Justisbygget i Kristiansand"
+  },
+  {
+    "kode": "00069",
+    "navn": "Kristiansand Lærerhøgskole"
+  },
+  {
+    "kode": "00070",
+    "navn": "Høgskolen i Bergen, Lærerutd."
+  },
+  {
+    "kode": "00071",
+    "navn": "Trondheim Tinghus"
+  },
+  {
+    "kode": "00072",
+    "navn": "NTNU, Gunnerusgt."
+  },
+  {
+    "kode": "00073",
+    "navn": "Hove, Arendal"
+  },
+  {
+    "kode": "00074",
+    "navn": "Regjeringskvart. - Grubbegt. 1"
+  },
+  {
+    "kode": "00078",
+    "navn": "St. Olavs gt 32, Oslo"
+  },
+  {
+    "kode": "00081",
+    "navn": "Riksarkivet, Oslo"
+  },
+  {
+    "kode": "00082",
+    "navn": "Oslo Trafikkstasjon (Risløkka)"
+  },
+  {
+    "kode": "00083",
+    "navn": "Politihuset i Oslo"
+  },
+  {
+    "kode": "00084",
+    "navn": "Statens Hus, Fredrikstad"
+  },
+  {
+    "kode": "00085",
+    "navn": "Moss Trafikkstasjon"
+  },
+  {
+    "kode": "00086",
+    "navn": "Statens Hus, Arendal"
+  },
+  {
+    "kode": "00088",
+    "navn": "Arendal Tollbygning"
+  },
+  {
+    "kode": "00089",
+    "navn": "Bankplassen 4, Oslo"
+  },
+  {
+    "kode": "00090",
+    "navn": "Stavern Fort, Citadelløya"
+  },
+  {
+    "kode": "00091",
+    "navn": "Nasjonalgalleriet, Oslo"
+  },
+  {
+    "kode": "00092",
+    "navn": "USN, Campus Ringerike"
+  },
+  {
+    "kode": "00093",
+    "navn": "NTNU Avdeling Gjøvik"
+  },
+  {
+    "kode": "00094",
+    "navn": "Grooseveien 36, Grimstad"
+  },
+  {
+    "kode": "00095",
+    "navn": "Høgsk.i Oslo/Ing.utd.,c.adlersgt"
+  },
+  {
+    "kode": "00104",
+    "navn": "Høgskolen i Østfold, Sarpsborg"
+  },
+  {
+    "kode": "00106",
+    "navn": "Politihøgskolen, Oslo"
+  },
+  {
+    "kode": "00107",
+    "navn": "Arkitekthøgskolen (St.olavsg 4)"
+  },
+  {
+    "kode": "00108",
+    "navn": "Høgskolen i Vestfold, Eik"
+  },
+  {
+    "kode": "00109",
+    "navn": "Høgskolen i Hedm. Elverum/Lærer"
+  },
+  {
+    "kode": "00110",
+    "navn": "Høgskolen i Innlandet, Hamar"
+  },
+  {
+    "kode": "00112",
+    "navn": "Bergenhus: Håkonshallen/Rosenkrantztårnet"
+  },
+  {
+    "kode": "00116",
+    "navn": "Kalfarveien 31 Bergen"
+  },
+  {
+    "kode": "00118",
+    "navn": "Statsarkivet, Kristiansand"
+  },
+  {
+    "kode": "00119",
+    "navn": "Kristiansand Trafikkstasjon"
+  },
+  {
+    "kode": "00120",
+    "navn": "Dronningens gate 77 Kristiansand"
+  },
+  {
+    "kode": "00122",
+    "navn": "Flekkefjord Politistasjon"
+  },
+  {
+    "kode": "00123",
+    "navn": "Flekkefjord Tollsted"
+  },
+  {
+    "kode": "00125",
+    "navn": "Stavanger Tinghus"
+  },
+  {
+    "kode": "00126",
+    "navn": "Bergelandsgt. 6, Stavanger"
+  },
+  {
+    "kode": "00127",
+    "navn": "Knud Holmsgate 5, Stavanger"
+  },
+  {
+    "kode": "00128",
+    "navn": "Biltilsynet i Stavanger"
+  },
+  {
+    "kode": "00129",
+    "navn": "Haugesund trafikkstasjon"
+  },
+  {
+    "kode": "00130",
+    "navn": "Bergen Politikammer"
+  },
+  {
+    "kode": "00131",
+    "navn": "Statsarkivet i Bergen"
+  },
+  {
+    "kode": "00133",
+    "navn": "Førde Trafikkstasjon"
+  },
+  {
+    "kode": "00134",
+    "navn": "Hospitalgata 6, Stavanger"
+  },
+  {
+    "kode": "00136",
+    "navn": "Oljedirektoratet Stavanger"
+  },
+  {
+    "kode": "00139",
+    "navn": "Bolig, Ibsens gt. 68 Bergen"
+  },
+  {
+    "kode": "00141",
+    "navn": "Boliger Holstlia"
+  },
+  {
+    "kode": "00142",
+    "navn": "Boliger Kautokeino Hannomaras"
+  },
+  {
+    "kode": "00143",
+    "navn": "Samisk Vg. Skole i Kautokeino"
+  },
+  {
+    "kode": "00145",
+    "navn": "Bolig Jaeggeluodda 27 A-D Karasj"
+  },
+  {
+    "kode": "00146",
+    "navn": "Samisk Vg. Skole, Karasjok"
+  },
+  {
+    "kode": "00148",
+    "navn": "Vardø Sorenskrivergård"
+  },
+  {
+    "kode": "00149",
+    "navn": "Kirkenes Tollsted"
+  },
+  {
+    "kode": "00150",
+    "navn": "Polmak Tollsted"
+  },
+  {
+    "kode": "00151",
+    "navn": "Boliger, Leitevegen Leikanger"
+  },
+  {
+    "kode": "00152",
+    "navn": "Enebolig Leikanger"
+  },
+  {
+    "kode": "00158",
+    "navn": "Høgskulen på Vestlandet - Stord"
+  },
+  {
+    "kode": "00159",
+    "navn": "Høgskulen på Vestlandet - Sogndal"
+  },
+  {
+    "kode": "00160",
+    "navn": "Birkelid, Songdalen"
+  },
+  {
+    "kode": "00161",
+    "navn": "Høgskolen i Bergen, Helse og Sos"
+  },
+  {
+    "kode": "00162",
+    "navn": "Bjørkåsen, Bergen"
+  },
+  {
+    "kode": "00163",
+    "navn": "Eikelund"
+  },
+  {
+    "kode": "00166",
+    "navn": "Statped, Søreide"
+  },
+  {
+    "kode": "00167",
+    "navn": "Statens Havarivernsk. Haugesund"
+  },
+  {
+    "kode": "00169",
+    "navn": "Gamlehaugen, Bergen"
+  },
+  {
+    "kode": "00170",
+    "navn": "Arkeologisk Museum, Stavanger"
+  },
+  {
+    "kode": "00173",
+    "navn": "Regjeringens Repr. Anlegg"
+  },
+  {
+    "kode": "00175",
+    "navn": "Drammensvn. 74 Den Russiske Amb."
+  },
+  {
+    "kode": "00176",
+    "navn": "Refstad Transittmottak, Oslo"
+  },
+  {
+    "kode": "00178",
+    "navn": "Rosenlund, Holmestrand"
+  },
+  {
+    "kode": "00179",
+    "navn": "Tomt-Smalvollen Inntauing, Oslo"
+  },
+  {
+    "kode": "00180",
+    "navn": "Sæthern Gård, Bærum"
+  },
+  {
+    "kode": "00183",
+    "navn": "Abidjan, Ambassaden i"
+  },
+  {
+    "kode": "00194",
+    "navn": "Bangkok, Ambassaden i"
+  },
+  {
+    "kode": "00195",
+    "navn": "Beijing, Ambassaden i"
+  },
+  {
+    "kode": "00197",
+    "navn": "Beograd, Embetsboligen"
+  },
+  {
+    "kode": "00198",
+    "navn": "Berlin, Kanselli"
+  },
+  {
+    "kode": "00200",
+    "navn": "Brasilia, Ambassadeanlegg"
+  },
+  {
+    "kode": "00201",
+    "navn": "Brussel, Ambassaden i"
+  },
+  {
+    "kode": "00202",
+    "navn": "Brussel, Embetsbolig EU"
+  },
+  {
+    "kode": "00203",
+    "navn": "Brussel, Embetsbolig NATO"
+  },
+  {
+    "kode": "00204",
+    "navn": "Budapest, Ambassaden i"
+  },
+  {
+    "kode": "00205",
+    "navn": "Buenos Aires, Kanselli"
+  },
+  {
+    "kode": "00206",
+    "navn": "Cairo, Ambassadeanlegg"
+  },
+  {
+    "kode": "00207",
+    "navn": "Canberra, Kanselli"
+  },
+  {
+    "kode": "00210",
+    "navn": "Cape Town, Generalkonsulatet I"
+  },
+  {
+    "kode": "00211",
+    "navn": "Caracas, Ambassaden i"
+  },
+  {
+    "kode": "00213",
+    "navn": "Dar es Salaam, Kanselli"
+  },
+  {
+    "kode": "00214",
+    "navn": "Dublin, Stasjonssjefsbolig"
+  },
+  {
+    "kode": "00215",
+    "navn": "Edinburgh, Generalkonsulatet I"
+  },
+  {
+    "kode": "00216",
+    "navn": "Geneve, Fn-Del. Embetsbolig"
+  },
+  {
+    "kode": "00217",
+    "navn": "Haag, Embetsbolig"
+  },
+  {
+    "kode": "00218",
+    "navn": "Hamburg, Generalkonsulatet I"
+  },
+  {
+    "kode": "00219",
+    "navn": "Harare, Ambassade Kanselli"
+  },
+  {
+    "kode": "00220",
+    "navn": "Helsingfors, Ambassadekompleks"
+  },
+  {
+    "kode": "00222",
+    "navn": "Houston, Embetsbolig"
+  },
+  {
+    "kode": "00225",
+    "navn": "Jakarta, Ambassaden i"
+  },
+  {
+    "kode": "00227",
+    "navn": "Kuala Lumpur, Embetsbolig i"
+  },
+  {
+    "kode": "00229",
+    "navn": "København, Ambassaden i"
+  },
+  {
+    "kode": "00230",
+    "navn": "Lagos, Ambassaden i"
+  },
+  {
+    "kode": "00231",
+    "navn": "Lisboa, Kanselli"
+  },
+  {
+    "kode": "00232",
+    "navn": "London, Ambassade Kanselli"
+  },
+  {
+    "kode": "00236",
+    "navn": "Mexico, Ambassaden i"
+  },
+  {
+    "kode": "00238",
+    "navn": "Minneapolis, Generalkonsulatet I"
+  },
+  {
+    "kode": "00240",
+    "navn": "Moskva, Ambassaden i"
+  },
+  {
+    "kode": "00241",
+    "navn": "Nairobi, Embetsbolig"
+  },
+  {
+    "kode": "00242",
+    "navn": "New Delhi, Ambassaden i"
+  },
+  {
+    "kode": "00243",
+    "navn": "New York, Generalkonsulatet I"
+  },
+  {
+    "kode": "00244",
+    "navn": "New York, Fn-Delegasjonen I"
+  },
+  {
+    "kode": "00245",
+    "navn": "Ottawa, Ambassaden i"
+  },
+  {
+    "kode": "00248",
+    "navn": "Paris, Ambassade Kanselli"
+  },
+  {
+    "kode": "00250",
+    "navn": "Rabat, Kanselli"
+  },
+  {
+    "kode": "00251",
+    "navn": "Reykjavik, Kanselli m/Leil."
+  },
+  {
+    "kode": "00253",
+    "navn": "Riyadh, Ambassadekompleks"
+  },
+  {
+    "kode": "00254",
+    "navn": "Roma, Ambassaden i"
+  },
+  {
+    "kode": "00255",
+    "navn": "San Francisco, Generalkonsulatet"
+  },
+  {
+    "kode": "00257",
+    "navn": "Santiago, Embetsbolig"
+  },
+  {
+    "kode": "00258",
+    "navn": "Seoul, Ambassaden i"
+  },
+  {
+    "kode": "00259",
+    "navn": "Singapore, Ambassaden i"
+  },
+  {
+    "kode": "00260",
+    "navn": "Rotterdam, Generalkonsulatet I"
+  },
+  {
+    "kode": "00262",
+    "navn": "Teheran, Ubebygget eiendom"
+  },
+  {
+    "kode": "00263",
+    "navn": "Tel Aviv, Ambassaden i"
+  },
+  {
+    "kode": "00264",
+    "navn": "Tokyo, Ambassaden i"
+  },
+  {
+    "kode": "00266",
+    "navn": "Washington, Ambassadeanlegg"
+  },
+  {
+    "kode": "00267",
+    "navn": "Wien, Embetsboligen i"
+  },
+  {
+    "kode": "00269",
+    "navn": "Riga, Ambassaden i"
+  },
+  {
+    "kode": "00272",
+    "navn": "Norges Musikkhøgskole, Oslo"
+  },
+  {
+    "kode": "00275",
+    "navn": "Høgskoleveien 12"
+  },
+  {
+    "kode": "00281",
+    "navn": "Stami, Gydas vei 8, Oslo"
+  },
+  {
+    "kode": "00288",
+    "navn": "Claus Borchs vei 19/21/23, Oslo"
+  },
+  {
+    "kode": "00289",
+    "navn": "Stockholm, Ambassadesanlegg"
+  },
+  {
+    "kode": "00290",
+    "navn": "Warszawa, Ambassadeanlegg"
+  },
+  {
+    "kode": "00292",
+    "navn": "Tromsø Trafikkstasjon (Tidligere"
+  },
+  {
+    "kode": "00293",
+    "navn": "Nordnorsk Kunstmuseum, Tromsø"
+  },
+  {
+    "kode": "00294",
+    "navn": "Harstad Trafikkstasjon"
+  },
+  {
+    "kode": "00296",
+    "navn": "Statens hus i Tromsø"
+  },
+  {
+    "kode": "00298",
+    "navn": "Strasbourg, Embetsboligen ii"
+  },
+  {
+    "kode": "00300",
+    "navn": "Bredtvedt K.senter, Granhaug"
+  },
+  {
+    "kode": "00309",
+    "navn": "Fredrikstad Trafikkstasjon"
+  },
+  {
+    "kode": "00310",
+    "navn": "Billingstad Trafikkstasjon, Asker"
+  },
+  {
+    "kode": "00313",
+    "navn": "Fylkesm.bolig Østfold, Moss"
+  },
+  {
+    "kode": "00314",
+    "navn": "Bredtvet/Torshov Komp. Senter"
+  },
+  {
+    "kode": "00316",
+    "navn": "UiO, Gaustadallèen 25, Oslo"
+  },
+  {
+    "kode": "00318",
+    "navn": "Kongstein Skole Stavanger"
+  },
+  {
+    "kode": "00320",
+    "navn": "Forusområdet Stavanger"
+  },
+  {
+    "kode": "00331",
+    "navn": "Statens hus i Stavanger"
+  },
+  {
+    "kode": "00336",
+    "navn": "Solbergveien 14, Kristiansand"
+  },
+  {
+    "kode": "00337",
+    "navn": "Tordenskjoldsgate 65, Kr.sand"
+  },
+  {
+    "kode": "00345",
+    "navn": "Statped, Hunstad"
+  },
+  {
+    "kode": "00346",
+    "navn": "Høgskolen i Bergen, Helsefag"
+  },
+  {
+    "kode": "00347",
+    "navn": "Tinghuset i Leirvik"
+  },
+  {
+    "kode": "00348",
+    "navn": "Olvikvegen, Stord"
+  },
+  {
+    "kode": "00350",
+    "navn": "Hordaland tingrett - rettsted Lofthus"
+  },
+  {
+    "kode": "00352",
+    "navn": "Voss Sorenskriverbolig"
+  },
+  {
+    "kode": "00353",
+    "navn": "Fjordane Politimesterbolig Florø"
+  },
+  {
+    "kode": "00355",
+    "navn": "Sogn Politimesterbolig Leikanger"
+  },
+  {
+    "kode": "00356",
+    "navn": "Sogn og Fj. Fylkesmannsbolig"
+  },
+  {
+    "kode": "00357",
+    "navn": "Statens hus i Leikanger"
+  },
+  {
+    "kode": "00360",
+    "navn": "Høgskulen på Vestlandet - Førde"
+  },
+  {
+    "kode": "00362",
+    "navn": "Pretoria, Ambassaden i"
+  },
+  {
+    "kode": "00377",
+    "navn": "Trondheim Trafikkstasjon"
+  },
+  {
+    "kode": "00378",
+    "navn": "Erling Skakkesgt 60"
+  },
+  {
+    "kode": "00382",
+    "navn": "Kj. Torkildsensgt.1, Kirkenes"
+  },
+  {
+    "kode": "00383",
+    "navn": "Storskog grenseovergangssted"
+  },
+  {
+    "kode": "00384",
+    "navn": "Båtsfjord Politistasjon"
+  },
+  {
+    "kode": "00385",
+    "navn": "Sør-Varanger Politimesterbolig"
+  },
+  {
+    "kode": "00386",
+    "navn": "Grensekommisærbolig, Kirkenes"
+  },
+  {
+    "kode": "00387",
+    "navn": "Vardø Politimesterbolig"
+  },
+  {
+    "kode": "00390",
+    "navn": "Vadsø Politimesterbolig"
+  },
+  {
+    "kode": "00394",
+    "navn": "Kongensgt 85, Trondheim"
+  },
+  {
+    "kode": "00403",
+    "navn": "Namsos Trafikkstasjon"
+  },
+  {
+    "kode": "00404",
+    "navn": "Mosjøen trafikkstasjon"
+  },
+  {
+    "kode": "00408",
+    "navn": "Narvik Trafikkstasjon"
+  },
+  {
+    "kode": "00410",
+    "navn": "Narvik Tollbygning"
+  },
+  {
+    "kode": "00413",
+    "navn": "Møller Kompetansesenter, Vikhov"
+  },
+  {
+    "kode": "00414",
+    "navn": "Terje Voldsgt. 22"
+  },
+  {
+    "kode": "00416",
+    "navn": "tomter Tromsø, Strandvegen 113 - 119"
+  },
+  {
+    "kode": "00418",
+    "navn": "Terje Voldsgt. 24"
+  },
+  {
+    "kode": "00420",
+    "navn": "Kriminalasylet i Trondheim"
+  },
+  {
+    "kode": "00422",
+    "navn": "Bolig, Bergstien 6, Vadsø"
+  },
+  {
+    "kode": "00423",
+    "navn": "Bolig, Grensen 30 /32, Vadsø"
+  },
+  {
+    "kode": "00426",
+    "navn": "Lofoten Sorenskriverbolig"
+  },
+  {
+    "kode": "00427",
+    "navn": "Idrettsvn. 54"
+  },
+  {
+    "kode": "00428",
+    "navn": "Bolig, Idrettsvn. 27b, Vadsø"
+  },
+  {
+    "kode": "00429",
+    "navn": "Bolig, Idrettsveien 19, Vadsø"
+  },
+  {
+    "kode": "00430",
+    "navn": "Hvistendalsgt. 7"
+  },
+  {
+    "kode": "00431",
+    "navn": "Amtmannsgt. 36"
+  },
+  {
+    "kode": "00432",
+    "navn": "Amtmannsgt. 4"
+  },
+  {
+    "kode": "00434",
+    "navn": "Oscarsgt. 101-103"
+  },
+  {
+    "kode": "00435",
+    "navn": "Kaigt. 15-17"
+  },
+  {
+    "kode": "00436",
+    "navn": "Lofoten og Vestr.politm. Bolig"
+  },
+  {
+    "kode": "00439",
+    "navn": "Skogfoss Skogtun"
+  },
+  {
+    "kode": "00441",
+    "navn": "Bolig, Vigørvn. 18, Hesseng"
+  },
+  {
+    "kode": "00442",
+    "navn": "Bolig, Vigørvn. 20, Hesseng"
+  },
+  {
+    "kode": "00443",
+    "navn": "Bolig, Vigørvn. 12, Hesseng"
+  },
+  {
+    "kode": "00444",
+    "navn": "Bolig, Vigørvn. 14, Hesseng"
+  },
+  {
+    "kode": "00445",
+    "navn": "Vesterålen Sorenskriverbolig"
+  },
+  {
+    "kode": "00446",
+    "navn": "Vigørvn. 10, Hesseng"
+  },
+  {
+    "kode": "00447",
+    "navn": "Reinsdyrvn. 5a-B"
+  },
+  {
+    "kode": "00448",
+    "navn": "Reinsdyrvn. 15"
+  },
+  {
+    "kode": "00449",
+    "navn": "Tunnelvn. 31, Hesseng"
+  },
+  {
+    "kode": "00452",
+    "navn": "Senja Sorenskriverbolig"
+  },
+  {
+    "kode": "00453",
+    "navn": "UiT, Campus Alta"
+  },
+  {
+    "kode": "00454",
+    "navn": "Biskop Bergravsgate 50, Tromsø"
+  },
+  {
+    "kode": "00455",
+    "navn": "Diehtosiida, Kautokeino"
+  },
+  {
+    "kode": "00457",
+    "navn": "Amtmann Prebensensgt. 9"
+  },
+  {
+    "kode": "00458",
+    "navn": "Amtmann Urbyesgt. 9"
+  },
+  {
+    "kode": "00459",
+    "navn": "St. Hanshaugen 7"
+  },
+  {
+    "kode": "00460",
+    "navn": "St. Hanshaugen 11"
+  },
+  {
+    "kode": "00461",
+    "navn": "Amtmann Urbyesgt. 15"
+  },
+  {
+    "kode": "00462",
+    "navn": "Amtmann Urbyesgt. 5"
+  },
+  {
+    "kode": "00464",
+    "navn": "Grensen 16"
+  },
+  {
+    "kode": "00465",
+    "navn": "Grensen 28"
+  },
+  {
+    "kode": "00466",
+    "navn": "Grensen 14"
+  },
+  {
+    "kode": "00467",
+    "navn": "Statped Midt - Melhus"
+  },
+  {
+    "kode": "00468",
+    "navn": "NTNU,tungav 32"
+  },
+  {
+    "kode": "00469",
+    "navn": "Statens Vegv. Kontor Steinkjer"
+  },
+  {
+    "kode": "00471",
+    "navn": "Skagveien 61"
+  },
+  {
+    "kode": "00472",
+    "navn": "Skagveien 63"
+  },
+  {
+    "kode": "00474",
+    "navn": "Vardø Politistasjon"
+  },
+  {
+    "kode": "00475",
+    "navn": "Sørsamisk Kunnskapspark"
+  },
+  {
+    "kode": "00477",
+    "navn": "Statped Midt- Heimdal"
+  },
+  {
+    "kode": "00478",
+    "navn": "Trondheim Politikammer"
+  },
+  {
+    "kode": "00480",
+    "navn": "Troms Politimesterbolig"
+  },
+  {
+    "kode": "00483",
+    "navn": "Bjørgan Prestegård"
+  },
+  {
+    "kode": "00485",
+    "navn": "Notodden Trafikkstasjon"
+  },
+  {
+    "kode": "00487",
+    "navn": "St. Olavs plass 2, Oslo"
+  },
+  {
+    "kode": "00492",
+    "navn": "Porsgrunn Tollbod"
+  },
+  {
+    "kode": "00493",
+    "navn": "Risør Politistasjon"
+  },
+  {
+    "kode": "00494",
+    "navn": "Lillegården"
+  },
+  {
+    "kode": "00495",
+    "navn": "Skien Trafikkstasjon"
+  },
+  {
+    "kode": "00498",
+    "navn": "Sykehusveien 4, Arendal"
+  },
+  {
+    "kode": "00499",
+    "navn": "Torshovgata 46, Oslo"
+  },
+  {
+    "kode": "00502",
+    "navn": "Munkholmen"
+  },
+  {
+    "kode": "00504",
+    "navn": "Kragerø Politistasjon"
+  },
+  {
+    "kode": "00506",
+    "navn": "Lunde Skole, Tvedestrand"
+  },
+  {
+    "kode": "00507",
+    "navn": "Uranienborg Terrasse 22, Oslo"
+  },
+  {
+    "kode": "00509",
+    "navn": "Rosenborggaten 26, Oslo"
+  },
+  {
+    "kode": "00510",
+    "navn": "Justisbygget på Romerike"
+  },
+  {
+    "kode": "00511",
+    "navn": "Geologsvingen 2/4/67a/67b, Oslo"
+  },
+  {
+    "kode": "00513",
+    "navn": "Falbesgt. 5, Oslo"
+  },
+  {
+    "kode": "00514",
+    "navn": "Nord-Gudbrandsdal Sorenskr.bolig"
+  },
+  {
+    "kode": "00515",
+    "navn": "Vestbanen, Oslo"
+  },
+  {
+    "kode": "00518",
+    "navn": "Wergelandsveien 27/29, Oslo"
+  },
+  {
+    "kode": "00520",
+    "navn": "Nordahl Brunsgt. 18, Oslo"
+  },
+  {
+    "kode": "00521",
+    "navn": "Nord-Østerdal Sorenskrivergård"
+  },
+  {
+    "kode": "00522",
+    "navn": "Emma Hjorts vei 58, Bærum"
+  },
+  {
+    "kode": "00524",
+    "navn": "Stiftsgården"
+  },
+  {
+    "kode": "00526",
+    "navn": "Kongsvold Fjeldstue"
+  },
+  {
+    "kode": "00527",
+    "navn": "Helgesens gate 79/81a/83c, Oslo"
+  },
+  {
+    "kode": "00531",
+    "navn": "Austråttborgen"
+  },
+  {
+    "kode": "00532",
+    "navn": "Bodø Trafikkstasjon"
+  },
+  {
+    "kode": "00534",
+    "navn": "Lærerhøgskolen i Bodø"
+  },
+  {
+    "kode": "00535",
+    "navn": "Myntgata 2, Oslo"
+  },
+  {
+    "kode": "00536",
+    "navn": "Blaker Skanse, Sørum"
+  },
+  {
+    "kode": "00537",
+    "navn": "Nord Universitet Levanger(Levanger)"
+  },
+  {
+    "kode": "00538",
+    "navn": "USN, Campus Porsgrunn"
+  },
+  {
+    "kode": "00540",
+    "navn": "Dronn.gt.16,skippergt.17,oslo"
+  },
+  {
+    "kode": "00541",
+    "navn": "Grenseveien 92, Oslo"
+  },
+  {
+    "kode": "00542",
+    "navn": "Nes Sorenskrivergård"
+  },
+  {
+    "kode": "00544",
+    "navn": "Narvik Post- og Politibygg"
+  },
+  {
+    "kode": "00545",
+    "navn": "Falstad"
+  },
+  {
+    "kode": "00555",
+    "navn": "Namdal Sorenskriverbolig"
+  },
+  {
+    "kode": "00557",
+    "navn": "Innherred Sykepleierhøgskole"
+  },
+  {
+    "kode": "00563",
+    "navn": "Høgskolen i Levanger"
+  },
+  {
+    "kode": "00564",
+    "navn": "Nordland Sykepleierhøgskole"
+  },
+  {
+    "kode": "00566",
+    "navn": "Statsarkivet i Tromsø"
+  },
+  {
+    "kode": "00567",
+    "navn": "UiT, Breiviklia"
+  },
+  {
+    "kode": "00568",
+    "navn": "Sommerfeltsgt.64/66, Tromsø"
+  },
+  {
+    "kode": "00569",
+    "navn": "Håkon Den Gamlesgt 10"
+  },
+  {
+    "kode": "00570",
+    "navn": "Myrengveien 16/18, Tromsø"
+  },
+  {
+    "kode": "00571",
+    "navn": "Barduveien 21"
+  },
+  {
+    "kode": "00574",
+    "navn": "NTNU i Ålesund"
+  },
+  {
+    "kode": "00575",
+    "navn": "Høgskulen i Volda"
+  },
+  {
+    "kode": "00576",
+    "navn": "NTNU, Håkon Jarlsgt. 12"
+  },
+  {
+    "kode": "00577",
+    "navn": "Kristiansund Trafikkstasjon"
+  },
+  {
+    "kode": "00578",
+    "navn": "Ålesund Trafikkstasjon"
+  },
+  {
+    "kode": "00579",
+    "navn": "Molde Trafikkstasjon"
+  },
+  {
+    "kode": "00583",
+    "navn": "Høgskolen i Ålesund, Avd Åse"
+  },
+  {
+    "kode": "00584",
+    "navn": "Høgskolen i Molde, Glomstuv.33"
+  },
+  {
+    "kode": "00585",
+    "navn": "Nord Universitet, Bodø"
+  },
+  {
+    "kode": "00591",
+    "navn": "Høgskolen i Hedm. Elverum/Helse"
+  },
+  {
+    "kode": "00598",
+    "navn": "Parkveien 8, Oslo"
+  },
+  {
+    "kode": "00599",
+    "navn": "Kongsvinger Trafikkstasjon - Gml"
+  },
+  {
+    "kode": "00600",
+    "navn": "Arkitekturmuseet, Bankpl. 3,oslo"
+  },
+  {
+    "kode": "00602",
+    "navn": "Statistisk Sentralbyrå, Kongsv."
+  },
+  {
+    "kode": "00603",
+    "navn": "Solør Sorenskrivergård, Flisa"
+  },
+  {
+    "kode": "00609",
+    "navn": "Skådalen Kompetansesenter, Oslo"
+  },
+  {
+    "kode": "00613",
+    "navn": "Hamar Trafikkstasjon"
+  },
+  {
+    "kode": "00619",
+    "navn": "HVE Avd. Sykepleie"
+  },
+  {
+    "kode": "00620",
+    "navn": "Sandefjord Tinghus"
+  },
+  {
+    "kode": "00621",
+    "navn": "Sophies Minde Ortopedi, Oslo"
+  },
+  {
+    "kode": "00622",
+    "navn": "Nedre Gausen, Holmestrand"
+  },
+  {
+    "kode": "00623",
+    "navn": "Tokerudberget, Oslo"
+  },
+  {
+    "kode": "00629",
+    "navn": "Statens Æresbolig, Grotten, Oslo"
+  },
+  {
+    "kode": "00635",
+    "navn": "Villa Stenersen, Tuengen allé 10c"
+  },
+  {
+    "kode": "00636",
+    "navn": "Statens Kontorbygg Helsfyr, Oslo"
+  },
+  {
+    "kode": "00637",
+    "navn": "Gjøvik Trafikkstasjon"
+  },
+  {
+    "kode": "00638",
+    "navn": "Sorenskr.bolig,valdres, Fagernes"
+  },
+  {
+    "kode": "00639",
+    "navn": "Hagegata 22, Oslo"
+  },
+  {
+    "kode": "00640",
+    "navn": "Høgsk.i Oslo/Øks, Tjernv.12"
+  },
+  {
+    "kode": "00644",
+    "navn": "Statped Region Sørøst, Hovseter"
+  },
+  {
+    "kode": "00646",
+    "navn": "Tomt-Trogstad Skole"
+  },
+  {
+    "kode": "00648",
+    "navn": "Rogneby Kompetansesenter, Lena"
+  },
+  {
+    "kode": "00650",
+    "navn": "Grønnegaten 3-5, Oslo"
+  },
+  {
+    "kode": "00652",
+    "navn": "Øverby K.senter, Elton"
+  },
+  {
+    "kode": "00653",
+    "navn": "Sandefjord Tollsted/Trafikkstasj"
+  },
+  {
+    "kode": "00654",
+    "navn": "USN, Campus Notodden"
+  },
+  {
+    "kode": "00659",
+    "navn": "Ludv.skattumsgt.32, Gjøvik"
+  },
+  {
+    "kode": "00665",
+    "navn": "Inga Bjørnsons vei, Oslo"
+  },
+  {
+    "kode": "00666",
+    "navn": "Nico Hambros vei, Oslo"
+  },
+  {
+    "kode": "00667",
+    "navn": "Ragnhild Schibbyesvei, Oslo"
+  },
+  {
+    "kode": "00673",
+    "navn": "Hoffsveien 47/49, Oslo"
+  },
+  {
+    "kode": "00676",
+    "navn": "Hibu - Drammen"
+  },
+  {
+    "kode": "00677",
+    "navn": "Frogs vei 41, Kongsberg"
+  },
+  {
+    "kode": "00678",
+    "navn": "Drammen Tinghus"
+  },
+  {
+    "kode": "00679",
+    "navn": "Kartverket, Hønefoss"
+  },
+  {
+    "kode": "00681",
+    "navn": "Hallingdal Sorenskriverbolig"
+  },
+  {
+    "kode": "00683",
+    "navn": "Hoffsveien 45, Oslo"
+  },
+  {
+    "kode": "00686",
+    "navn": "Thv. Meyers gt. 15b/17ab, Oslo"
+  },
+  {
+    "kode": "00687",
+    "navn": "Persbråtan 2/3/4/8/11/13, Oslo"
+  },
+  {
+    "kode": "00695",
+    "navn": "Hoffsveien 51/53 , Oslo"
+  },
+  {
+    "kode": "00697",
+    "navn": "Johan Castbergs vei 6, Oslo"
+  },
+  {
+    "kode": "00700",
+    "navn": "Høgsk. i Innlandet - Lillehammer"
+  },
+  {
+    "kode": "00701",
+    "navn": "Strømsveien 96, Oslo"
+  },
+  {
+    "kode": "00703",
+    "navn": "Ullevålsveien 92, Oslo"
+  },
+  {
+    "kode": "00704",
+    "navn": "Kiev, Amb Kanselli & Embetsbolig"
+  },
+  {
+    "kode": "00720",
+    "navn": "Nyrud Politistasjon"
+  },
+  {
+    "kode": "00721",
+    "navn": "Grensen 6, Vadsø"
+  },
+  {
+    "kode": "00728",
+    "navn": "Bolig, Langnesveien 3, Tromsø"
+  },
+  {
+    "kode": "00729",
+    "navn": "Lærerskoleveien Tromsø"
+  },
+  {
+    "kode": "00730",
+    "navn": "Murmansk, Generalkonsulatet I"
+  },
+  {
+    "kode": "00733",
+    "navn": "Rønning Tollefsensvei 27/29"
+  },
+  {
+    "kode": "00734",
+    "navn": "Bjørnsonsvei 11"
+  },
+  {
+    "kode": "00735",
+    "navn": "Bjørnsonsvei 13"
+  },
+  {
+    "kode": "00738",
+    "navn": "Bergskrivergården"
+  },
+  {
+    "kode": "00741",
+    "navn": "Øvre Slottsgate 2b, Oslo"
+  },
+  {
+    "kode": "00746",
+    "navn": "Regjeringskvart. R 6"
+  },
+  {
+    "kode": "00754",
+    "navn": "Øverbyveien 88-104, Gjøvik (Innlandet)"
+  },
+  {
+    "kode": "00756",
+    "navn": "Høgsk.i Oslo/Estetikk,c.adlersgt"
+  },
+  {
+    "kode": "00758",
+    "navn": "Tordenskioldsgt. 12, Oslo"
+  },
+  {
+    "kode": "00759",
+    "navn": "Holmestrand Politistasjon"
+  },
+  {
+    "kode": "00760",
+    "navn": "Stovner Politistasjon, Oslo"
+  },
+  {
+    "kode": "00762",
+    "navn": "Anders Sandvigs gt 43. Lilleh."
+  },
+  {
+    "kode": "00764",
+    "navn": "Tønsberg Trafikkstasjon"
+  },
+  {
+    "kode": "00765",
+    "navn": "Statens Havarikommisjon (SHK)"
+  },
+  {
+    "kode": "00766",
+    "navn": "USN, Campus Vestfold"
+  },
+  {
+    "kode": "00767",
+    "navn": "Strandveien 33-39, Lysaker"
+  },
+  {
+    "kode": "00769",
+    "navn": "Ringstabekkveien 105, Stabekk"
+  },
+  {
+    "kode": "00774",
+    "navn": "Hagegata 23, Oslo"
+  },
+  {
+    "kode": "00776",
+    "navn": "Høgskolen i Oppland, Brandbu"
+  },
+  {
+    "kode": "00778",
+    "navn": "Villa Grande, Oslo."
+  },
+  {
+    "kode": "00789",
+    "navn": "Nordbyhageveien 20, Lørenskog"
+  },
+  {
+    "kode": "00790",
+    "navn": "Høgsk.i Oslo/Sykepl.,bjerreg.gt."
+  },
+  {
+    "kode": "00794",
+    "navn": "UiT, Campus Hammerfest"
+  },
+  {
+    "kode": "00795",
+    "navn": "Justisbygget i Hammerfest"
+  },
+  {
+    "kode": "00796",
+    "navn": "Nasjonalbiblioteket"
+  },
+  {
+    "kode": "00798",
+    "navn": "Munkedamsveien 62, Oslo"
+  },
+  {
+    "kode": "00799",
+    "navn": "Hovseterveien 20, Oslo"
+  },
+  {
+    "kode": "00800",
+    "navn": "K-Bygget, Halden"
+  },
+  {
+    "kode": "00802",
+    "navn": "Høgskolen i Østfold, Halden"
+  },
+  {
+    "kode": "00804",
+    "navn": "Halden Sorenskriverembete"
+  },
+  {
+    "kode": "00805",
+    "navn": "Tinghus II og III, Leikanger"
+  },
+  {
+    "kode": "00809",
+    "navn": "Brann- og Redningsskolen - Tjeldsund"
+  },
+  {
+    "kode": "00815",
+    "navn": "Høgskolen i Molde, Britvegen 2"
+  },
+  {
+    "kode": "00816",
+    "navn": "Statsarkivet, Kongsberg"
+  },
+  {
+    "kode": "00817",
+    "navn": "Fredrikstad Politikammer"
+  },
+  {
+    "kode": "00818",
+    "navn": "NGU Geodatasenter, Løkken."
+  },
+  {
+    "kode": "00820",
+    "navn": "Bolig, Moreneveien, Vadsø"
+  },
+  {
+    "kode": "00822",
+    "navn": "Bredtvedt K.senter, Grimebakken"
+  },
+  {
+    "kode": "00823",
+    "navn": "NTNU, Ark Chr. og Bispegata"
+  },
+  {
+    "kode": "00824",
+    "navn": "Høgda Brl Arbeiderveien 100"
+  },
+  {
+    "kode": "00825",
+    "navn": "Tøtta 1 Brl Fosseveien 3"
+  },
+  {
+    "kode": "00826",
+    "navn": "Vassvik Sameie, Sjøveien 5a"
+  },
+  {
+    "kode": "00828",
+    "navn": "Myrheim II Brl,stærveien 5"
+  },
+  {
+    "kode": "00830",
+    "navn": "Rundvannet Brl,rundv. 69"
+  },
+  {
+    "kode": "00831",
+    "navn": "Brattbakken Brl, Brattbakken 144"
+  },
+  {
+    "kode": "00833",
+    "navn": "Myrland Brl,tomasj.v.237 og 241"
+  },
+  {
+    "kode": "00834",
+    "navn": "Myrheim 1 Brl, Dueveien 22, Tø"
+  },
+  {
+    "kode": "00835",
+    "navn": "Kaiskuru Brl,myrullv. 21d"
+  },
+  {
+    "kode": "00836",
+    "navn": "Myrullv.brl,myrullv. 48d,48e,48f"
+  },
+  {
+    "kode": "00837",
+    "navn": "Apanes 7a, Alta"
+  },
+  {
+    "kode": "00838",
+    "navn": "Myrseth 7b, og 9b, Alta"
+  },
+  {
+    "kode": "00839",
+    "navn": "Gakoriåsen ,ternesv./Svanev Alta"
+  },
+  {
+    "kode": "00840",
+    "navn": "Kronstad Bregnev.12a Alta"
+  },
+  {
+    "kode": "00841",
+    "navn": "Holstbakken Brl,blokkebærv. 35"
+  },
+  {
+    "kode": "00842",
+    "navn": "Spireav.brl Spirea.12d Alta"
+  },
+  {
+    "kode": "00843",
+    "navn": "Knausen ,ø.tollev.vei 68"
+  },
+  {
+    "kode": "00844",
+    "navn": "Tollevik Brl,tollev.vei 30c"
+  },
+  {
+    "kode": "00845",
+    "navn": "3"
+  },
+  {
+    "kode": "00846",
+    "navn": "Skytterv.brl,skyt.v,39a,honn.våg"
+  },
+  {
+    "kode": "00847",
+    "navn": "Bolig, Prestelv Brl, Vadsø"
+  },
+  {
+    "kode": "00848",
+    "navn": "Øya Brl, Fabrikkveien 4e"
+  },
+  {
+    "kode": "00849",
+    "navn": "Skolegata 4d, Vadsø"
+  },
+  {
+    "kode": "00850",
+    "navn": "Tyven Brl, Blinken 7"
+  },
+  {
+    "kode": "00851",
+    "navn": "Rabben Brl, Freidigveien 1a"
+  },
+  {
+    "kode": "00852",
+    "navn": "Baksalen Brl,høyden 18b"
+  },
+  {
+    "kode": "00853",
+    "navn": "Salheimsveien Brl,salheimsv. 8c"
+  },
+  {
+    "kode": "00854",
+    "navn": "Sæterli Brl,rundlia 17d"
+  },
+  {
+    "kode": "00855",
+    "navn": "Karasjok Brl,latevouovde 14"
+  },
+  {
+    "kode": "00856",
+    "navn": "Bolig, Åsveien 106/118 Karasjok"
+  },
+  {
+    "kode": "00857",
+    "navn": "Hesseng Brl,myrveien 5a, Hesseng"
+  },
+  {
+    "kode": "00858",
+    "navn": "Kvartalene Brl- Storgt.17g Kirke"
+  },
+  {
+    "kode": "00859",
+    "navn": "Gartnerjordet Brl,gartnerj. 27e"
+  },
+  {
+    "kode": "00860",
+    "navn": "Nordenstensveg Brl,n.stensv.23c"
+  },
+  {
+    "kode": "00867",
+    "navn": "Villaveien 76"
+  },
+  {
+    "kode": "00868",
+    "navn": "Villaveien 78"
+  },
+  {
+    "kode": "00869",
+    "navn": "Villaveien 80"
+  },
+  {
+    "kode": "00870",
+    "navn": "Siccajavre Fjellstue"
+  },
+  {
+    "kode": "00871",
+    "navn": "Jotkajavre Fjellstue"
+  },
+  {
+    "kode": "00872",
+    "navn": "Mollisjok Fjellstue"
+  },
+  {
+    "kode": "00873",
+    "navn": "Ravnastua Fjellstue"
+  },
+  {
+    "kode": "00874",
+    "navn": "Bæivasgiedde Fjellstue"
+  },
+  {
+    "kode": "00875",
+    "navn": "Administrasjonsbygg Sysselmesteren"
+  },
+  {
+    "kode": "00876",
+    "navn": "Sysselmannsgården Svalbard"
+  },
+  {
+    "kode": "00877",
+    "navn": "Svalbard kirke, Longyearbyen"
+  },
+  {
+    "kode": "00878",
+    "navn": "Bergmesterboligen, Svalbard"
+  },
+  {
+    "kode": "00879",
+    "navn": "Skjæringen, Svalbard"
+  },
+  {
+    "kode": "00880",
+    "navn": "Kontorbygg for Statsbygg, Lyb"
+  },
+  {
+    "kode": "00882",
+    "navn": "Lagerbygg Statsbygg, Svalbard"
+  },
+  {
+    "kode": "00883",
+    "navn": "Statsbyggriggen, Svalbard"
+  },
+  {
+    "kode": "00884",
+    "navn": "Statens Hus, Svalbard"
+  },
+  {
+    "kode": "00886",
+    "navn": "Bolig, H.reks.vei 220, Svalbard"
+  },
+  {
+    "kode": "00887",
+    "navn": "Bolig, H.rek.vei 221 A, Svalbard"
+  },
+  {
+    "kode": "00888",
+    "navn": "Bolig,h.reks.vei 219, 221 S.bard"
+  },
+  {
+    "kode": "00889",
+    "navn": "Boligpoolen Longyearbyen"
+  },
+  {
+    "kode": "00890",
+    "navn": "Bolig,h.reks.vei 228 A, Svalbard"
+  },
+  {
+    "kode": "00891",
+    "navn": "Bolig,h.reks.vei 228 B, Svalbard"
+  },
+  {
+    "kode": "00892",
+    "navn": "Bolig, H.reks.vei 230, Svalbard"
+  },
+  {
+    "kode": "00893",
+    "navn": "Bolig, vei 232 A, Reitgj, S.bard"
+  },
+  {
+    "kode": "00894",
+    "navn": "Bolig, vei 232 , Svalbard"
+  },
+  {
+    "kode": "00895",
+    "navn": "Bolig, vei 234 A, Svalbard"
+  },
+  {
+    "kode": "00896",
+    "navn": "Bolig, vei 234 B, Svalbard"
+  },
+  {
+    "kode": "00897",
+    "navn": "Bolig, vei 236, Svalbard"
+  },
+  {
+    "kode": "00898",
+    "navn": "Bolig, vei 238 Svalbard"
+  },
+  {
+    "kode": "00899",
+    "navn": "Meteorologisk Institutt Bjørnøya"
+  },
+  {
+    "kode": "00900",
+    "navn": "Meteorologisk Institutt, Hopen"
+  },
+  {
+    "kode": "00901",
+    "navn": "Kongens gt.13f Kirkenes"
+  },
+  {
+    "kode": "00902",
+    "navn": "Bolig, Åsveien 107 Karasjok"
+  },
+  {
+    "kode": "00903",
+    "navn": "Bolig, Åsveien 109 Karasjok"
+  },
+  {
+    "kode": "00905",
+    "navn": "Bjørneveien 38, Lakselv"
+  },
+  {
+    "kode": "00906",
+    "navn": "Bjørneveien 40, Lakselv"
+  },
+  {
+    "kode": "00907",
+    "navn": "Kirkeveien 10, Lakselv"
+  },
+  {
+    "kode": "00908",
+    "navn": "Alta Sorenskriverbolig"
+  },
+  {
+    "kode": "00909",
+    "navn": "V.finnm.politim.bo.hammerfest"
+  },
+  {
+    "kode": "00911",
+    "navn": "Longyearbyen Skole, Svalbard"
+  },
+  {
+    "kode": "00912",
+    "navn": "Longyearbyen Sykehus, Svalbard"
+  },
+  {
+    "kode": "00913",
+    "navn": "Silurveien 1, Oslo"
+  },
+  {
+    "kode": "00914",
+    "navn": "Statens Tomter Narvik"
+  },
+  {
+    "kode": "00916",
+    "navn": "Statens Tomter Troms - Planetariatet og Tjeldsund"
+  },
+  {
+    "kode": "00917",
+    "navn": "Drøbak Trafikkstasjon, Drøbak"
+  },
+  {
+    "kode": "00921",
+    "navn": "Welhavensgt. 10, Oslo"
+  },
+  {
+    "kode": "00924",
+    "navn": "St. Jørgens vei 3, Oslo"
+  },
+  {
+    "kode": "00925",
+    "navn": "Ørje Fort"
+  },
+  {
+    "kode": "00926",
+    "navn": "Wilhelmsgt. 1, Oslo"
+  },
+  {
+    "kode": "00929",
+    "navn": "Pilestredet 47, Oslo"
+  },
+  {
+    "kode": "00931",
+    "navn": "Sofienberggata 61 D, Oslo"
+  },
+  {
+    "kode": "00932",
+    "navn": "Mauritz Hansensgt. 2, Oslo"
+  },
+  {
+    "kode": "00934",
+    "navn": "Vestfold Fylkesmannsbolig"
+  },
+  {
+    "kode": "00936",
+    "navn": "Sjømennenes Minnehall, Stavern"
+  },
+  {
+    "kode": "00938",
+    "navn": "Statens Tomter Finnmark"
+  },
+  {
+    "kode": "00940",
+    "navn": "Tomter: Plasser i Oslo"
+  },
+  {
+    "kode": "00941",
+    "navn": "Skulpturer i Oslo"
+  },
+  {
+    "kode": "00942",
+    "navn": "Bolig, Lunden 4 A/B/C, Alta"
+  },
+  {
+    "kode": "00943",
+    "navn": "Bolig, Lunden 6 A/B/C, Alta"
+  },
+  {
+    "kode": "00944",
+    "navn": "Bolig, Nøkkelstien 6 Alta"
+  },
+  {
+    "kode": "00945",
+    "navn": "Nordahl Grigsvei 2, Alta"
+  },
+  {
+    "kode": "00946",
+    "navn": "Bolig, Ekornsvingen 12, Alta"
+  },
+  {
+    "kode": "00947",
+    "navn": "Tuengen allé 19"
+  },
+  {
+    "kode": "00949",
+    "navn": "Glittre Gårdsbruk"
+  },
+  {
+    "kode": "00950",
+    "navn": "Stortingsgt. 6, Oslo"
+  },
+  {
+    "kode": "00951",
+    "navn": "Bolig, Nøkkelstien 9 Alta"
+  },
+  {
+    "kode": "00952",
+    "navn": "Tomt: Statens Øyer i Oslofjorden"
+  },
+  {
+    "kode": "00953",
+    "navn": "Bjerregaards gate 19, Oslo"
+  },
+  {
+    "kode": "00954",
+    "navn": "Gaustadveien 4, Oslo"
+  },
+  {
+    "kode": "00956",
+    "navn": "Tomt: Gaustad Gård, Oslo"
+  },
+  {
+    "kode": "00957",
+    "navn": "Tomt: Ullveien 2, Oslo"
+  },
+  {
+    "kode": "00958",
+    "navn": "Tomt: Bukken Brusesv.18/25, Oslo"
+  },
+  {
+    "kode": "00959",
+    "navn": "Tomt; Haugerudhagan 78, Oslo"
+  },
+  {
+    "kode": "00962",
+    "navn": "Oslo Tinghus"
+  },
+  {
+    "kode": "00963",
+    "navn": "Fylkesmannsbolig Finnmark, Vadsø"
+  },
+  {
+    "kode": "00964",
+    "navn": "Vaktmesterbolig, G.ggt.6, Vadsø"
+  },
+  {
+    "kode": "00969",
+    "navn": "Fylkesbygget i Tromsø"
+  },
+  {
+    "kode": "00970",
+    "navn": "Ofoten Sorenskriverbolig"
+  },
+  {
+    "kode": "00972",
+    "navn": "Teleboliger 1,2,3,4 Svalbard"
+  },
+  {
+    "kode": "00974",
+    "navn": "Banken - Klæbu Pleiehjem"
+  },
+  {
+    "kode": "00975",
+    "navn": "Brøset Hageby,trondheim"
+  },
+  {
+    "kode": "00976",
+    "navn": "Natland Leir"
+  },
+  {
+    "kode": "00977",
+    "navn": "Oberstløytn. Omdals vei 5 - 1"
+  },
+  {
+    "kode": "00979",
+    "navn": "Nye Politikammer, Tromsø"
+  },
+  {
+    "kode": "00983",
+    "navn": "Brøset, Trondheim"
+  },
+  {
+    "kode": "00984",
+    "navn": "Harvasstua"
+  },
+  {
+    "kode": "00987",
+    "navn": "Høgskolen i Innlandet, Rena"
+  },
+  {
+    "kode": "00991",
+    "navn": "Tomt; Gaustadveien 3, Oslo"
+  },
+  {
+    "kode": "00994",
+    "navn": "Tomt: Trosterud, Oslo"
+  },
+  {
+    "kode": "00995",
+    "navn": "Ørsta Trafikkstasjon"
+  },
+  {
+    "kode": "00996",
+    "navn": "Støren Trafikkstasjon"
+  },
+  {
+    "kode": "00999",
+    "navn": "Tomt;sorenskr.jordet,nord-Aurdal"
+  },
+  {
+    "kode": "01000",
+    "navn": "Heimen, Ogndal"
+  },
+  {
+    "kode": "01012",
+    "navn": "Tomt; Vestlimyra Garasjelag,oslo"
+  },
+  {
+    "kode": "01025",
+    "navn": "Tomt; Et Stykke Mark, Halden"
+  },
+  {
+    "kode": "01026",
+    "navn": "UiT, Campus Harstad"
+  },
+  {
+    "kode": "01027",
+    "navn": "Tomt; Grønnlia, Asker"
+  },
+  {
+    "kode": "01028",
+    "navn": "USN, Campus Bø"
+  },
+  {
+    "kode": "01032",
+    "navn": "UiO, Blindernveien 11, Oslo"
+  },
+  {
+    "kode": "01623",
+    "navn": "Det Kongelige Slott"
+  },
+  {
+    "kode": "01624",
+    "navn": "Bygdø Kongsgård, Øvrig Bygningsm"
+  },
+  {
+    "kode": "01633",
+    "navn": "Kystverket Ålesund, Ystenesg 41"
+  },
+  {
+    "kode": "01634",
+    "navn": "Kystverket Nordland"
+  },
+  {
+    "kode": "01833",
+    "navn": "Havforskningsinstituttet Bergen"
+  },
+  {
+    "kode": "02162",
+    "navn": "Songli Forsøksgård"
+  },
+  {
+    "kode": "02467",
+    "navn": "Sarpsborg Tollsted"
+  },
+  {
+    "kode": "02468",
+    "navn": "Fredrikstad Tollsted"
+  },
+  {
+    "kode": "02471",
+    "navn": "Moss Tollsted"
+  },
+  {
+    "kode": "02473",
+    "navn": "Svinesund Tollsted (Tidl.)"
+  },
+  {
+    "kode": "02475",
+    "navn": "Østby Tollsted"
+  },
+  {
+    "kode": "02476",
+    "navn": "Ørje Tollsted"
+  },
+  {
+    "kode": "02477",
+    "navn": "Åsnes Tollsted"
+  },
+  {
+    "kode": "02478",
+    "navn": "Lutufallet Tollsted"
+  },
+  {
+    "kode": "02480",
+    "navn": "Schweigaardsgt. 15, Oslo"
+  },
+  {
+    "kode": "02481",
+    "navn": "Tollbugata 1a"
+  },
+  {
+    "kode": "02482",
+    "navn": "Drammen Tollsted"
+  },
+  {
+    "kode": "02483",
+    "navn": "Tønsberg Tollsted"
+  },
+  {
+    "kode": "02487",
+    "navn": "Larvik Tollsted"
+  },
+  {
+    "kode": "02488",
+    "navn": "Skien Tollsted"
+  },
+  {
+    "kode": "02492",
+    "navn": "Kristiansand Tollsted"
+  },
+  {
+    "kode": "02496",
+    "navn": "Stavanger Tollsted"
+  },
+  {
+    "kode": "02497",
+    "navn": "Bergen Tollsted"
+  },
+  {
+    "kode": "02499",
+    "navn": "Molde Tollsted"
+  },
+  {
+    "kode": "02502",
+    "navn": "Trondheim Tollsted"
+  },
+  {
+    "kode": "02504",
+    "navn": "Bodø Tollsted"
+  },
+  {
+    "kode": "02505",
+    "navn": "Junkerdal Tollsted"
+  },
+  {
+    "kode": "02507",
+    "navn": "Hammerfest Tollsted"
+  },
+  {
+    "kode": "02509",
+    "navn": "Neiden Tollsted"
+  },
+  {
+    "kode": "02510",
+    "navn": "Middelthunsgate 29, Oslo"
+  },
+  {
+    "kode": "02520",
+    "navn": "Hustad Fengsel"
+  },
+  {
+    "kode": "02535",
+    "navn": "Lierskogen Mottak"
+  },
+  {
+    "kode": "02536",
+    "navn": "Nordre Vestfold fengsel Hof avd."
+  },
+  {
+    "kode": "02546",
+    "navn": "Sandeid Fengsel"
+  },
+  {
+    "kode": "02558",
+    "navn": "Verdal Fengsel"
+  },
+  {
+    "kode": "02564",
+    "navn": "Bredtveit fengsel, forvarings- og sikringsanstalt"
+  },
+  {
+    "kode": "02565",
+    "navn": "Ila Fengsel, Forvaring- og Sikr."
+  },
+  {
+    "kode": "02566",
+    "navn": "Romerike Fengsel"
+  },
+  {
+    "kode": "02567",
+    "navn": "Indre Østfold Fengsel, Eidsberg"
+  },
+  {
+    "kode": "02568",
+    "navn": "Hedmark Fengsel, Hamar Avdeling"
+  },
+  {
+    "kode": "02569",
+    "navn": "Vestoppland Fengsel, Gjøvik Avd."
+  },
+  {
+    "kode": "02570",
+    "navn": "Kongsvinger Fengsel, G.avdeling"
+  },
+  {
+    "kode": "02571",
+    "navn": "Oslo Fengsel"
+  },
+  {
+    "kode": "02573",
+    "navn": "Hedmark Fengsel, Ilseng Avdeling"
+  },
+  {
+    "kode": "02574",
+    "navn": "Bastøy fengsel"
+  },
+  {
+    "kode": "02575",
+    "navn": "Sem fengsel"
+  },
+  {
+    "kode": "02576",
+    "navn": "Søndre Vestfold fengsel Berg avd"
+  },
+  {
+    "kode": "02577",
+    "navn": "Nordre Vestfold fengsel, Horten"
+  },
+  {
+    "kode": "02580",
+    "navn": "Søndre Vestfold fengsel Sandefjord"
+  },
+  {
+    "kode": "02581",
+    "navn": "Søndre Vestfold fengsel, Larvik"
+  },
+  {
+    "kode": "02582",
+    "navn": "Telemark fengsel, Kragerø avd."
+  },
+  {
+    "kode": "02584",
+    "navn": "Telemark fengsel, Skien avdeling"
+  },
+  {
+    "kode": "02585",
+    "navn": "Arendal fengsel"
+  },
+  {
+    "kode": "02586",
+    "navn": "Bergen Fengsel"
+  },
+  {
+    "kode": "02588",
+    "navn": "Stavanger Fengsel"
+  },
+  {
+    "kode": "02589",
+    "navn": "Åna Fengsel"
+  },
+  {
+    "kode": "02590",
+    "navn": "Ålesund Fengsel"
+  },
+  {
+    "kode": "02591",
+    "navn": "Haugesund Fengsel"
+  },
+  {
+    "kode": "02592",
+    "navn": "Vik Fengsel"
+  },
+  {
+    "kode": "02593",
+    "navn": "Vadsø Fengsel."
+  },
+  {
+    "kode": "02594",
+    "navn": "Tromsø Fengsel"
+  },
+  {
+    "kode": "02598",
+    "navn": "Trondheim Fengsel, avd. Nermarka"
+  },
+  {
+    "kode": "02601",
+    "navn": "Trondheim Fengsel, Avd. Leira"
+  },
+  {
+    "kode": "02602",
+    "navn": "Bodø Fengsel"
+  },
+  {
+    "kode": "02606",
+    "navn": "Drammensvn. 60, Oslo"
+  },
+  {
+    "kode": "02607",
+    "navn": "Trygdekontoret i Sør-Varanger"
+  },
+  {
+    "kode": "02608",
+    "navn": "Trygdekontoret i Båtsfjord, Nav"
+  },
+  {
+    "kode": "02610",
+    "navn": "Trygdekontoret i Vardø"
+  },
+  {
+    "kode": "02612",
+    "navn": "Trygdekontoret i Karlsøy"
+  },
+  {
+    "kode": "02613",
+    "navn": "Trygdekontoret i Tranøy"
+  },
+  {
+    "kode": "02614",
+    "navn": "Trygdekontoret i Moskenes"
+  },
+  {
+    "kode": "02615",
+    "navn": "Helfo-huset, Torggt. 2"
+  },
+  {
+    "kode": "02617",
+    "navn": "Levanger Trygdekontor"
+  },
+  {
+    "kode": "02618",
+    "navn": "Trondheim Trygdekontor"
+  },
+  {
+    "kode": "02621",
+    "navn": "Haugesund Trygdekontor"
+  },
+  {
+    "kode": "02622",
+    "navn": "Stavanger Trygdekontor"
+  },
+  {
+    "kode": "02623",
+    "navn": "Trygdekontoret i Tinn"
+  },
+  {
+    "kode": "02624",
+    "navn": "Trygdekontoret i Kragerø"
+  },
+  {
+    "kode": "02625",
+    "navn": "Trygdekontoret i Notodden"
+  },
+  {
+    "kode": "02626",
+    "navn": "Trygdekontoret i Skien"
+  },
+  {
+    "kode": "02627",
+    "navn": "Trygdekontoret i Porsgrunn"
+  },
+  {
+    "kode": "02628",
+    "navn": "Trygdekontoret i Tønsberg"
+  },
+  {
+    "kode": "02629",
+    "navn": "Trygdekontoret i Horten"
+  },
+  {
+    "kode": "02630",
+    "navn": "Drammen Trygdegård"
+  },
+  {
+    "kode": "02631",
+    "navn": "Lillehammer Trygdekontor"
+  },
+  {
+    "kode": "02632",
+    "navn": "Trygdekontoret på Østre Toten"
+  },
+  {
+    "kode": "02633",
+    "navn": "Trygdekontoret på Gjøvik"
+  },
+  {
+    "kode": "02634",
+    "navn": "Eidskog Trygdekontor"
+  },
+  {
+    "kode": "02635",
+    "navn": "Skedsmo Trygdekontor"
+  },
+  {
+    "kode": "02636",
+    "navn": "Trygdekontoret i Asker"
+  },
+  {
+    "kode": "02638",
+    "navn": "Askim Trygdekontor"
+  },
+  {
+    "kode": "02639",
+    "navn": "Sarpsborg Trygdekontor"
+  },
+  {
+    "kode": "02640",
+    "navn": "Røst Trygdekontor"
+  },
+  {
+    "kode": "02643",
+    "navn": "Pilestredet 32, Oslo"
+  },
+  {
+    "kode": "02653",
+    "navn": "Folkehelseinstituttet, Oslo"
+  },
+  {
+    "kode": "02654",
+    "navn": "Statens Strålevern"
+  },
+  {
+    "kode": "02655",
+    "navn": "Sognsvannsveien 28, Oslo"
+  },
+  {
+    "kode": "02669",
+    "navn": "NGU, Leiv Eirikssonsvei 39-40."
+  },
+  {
+    "kode": "02672",
+    "navn": "Managua, Ambassaden i"
+  },
+  {
+    "kode": "02673",
+    "navn": "Lusaka, Ambassade Kanselli"
+  },
+  {
+    "kode": "02674",
+    "navn": "Colombo, Ambassaden i"
+  },
+  {
+    "kode": "02677",
+    "navn": "Region Fornebu"
+  },
+  {
+    "kode": "03410",
+    "navn": "Eidsvoll 1814"
+  },
+  {
+    "kode": "03421",
+    "navn": "Vikeid Maskinf.skole for L.br."
+  },
+  {
+    "kode": "03422",
+    "navn": "Dømmesmoen, Grimstad"
+  },
+  {
+    "kode": "03424",
+    "navn": "Høgskolen i Innlandet, Evenstad"
+  },
+  {
+    "kode": "03425",
+    "navn": "Hint, Høvdingvegen 10, Steinkjer"
+  },
+  {
+    "kode": "03428",
+    "navn": "Tomt; Bjerketun, Bærum - 59/2"
+  },
+  {
+    "kode": "03431",
+    "navn": "Nordlysplanetariet"
+  },
+  {
+    "kode": "03432",
+    "navn": "Postterminal, Andslimoen"
+  },
+  {
+    "kode": "03433",
+    "navn": "Tomter: Gaustad (Borettslag)"
+  },
+  {
+    "kode": "03434",
+    "navn": "Tomt: Sognsvn.218, Kringsjå Stud"
+  },
+  {
+    "kode": "03436",
+    "navn": "Tomt: Gydas vei 4/Frøensjordet"
+  },
+  {
+    "kode": "03441",
+    "navn": "Grotvika, Tomt i Fjell"
+  },
+  {
+    "kode": "03443",
+    "navn": "Konnerudgate 2, Tomt, Drammen"
+  },
+  {
+    "kode": "03452",
+    "navn": "Kragevika - Flekkerøy, Kr.sand"
+  },
+  {
+    "kode": "03455",
+    "navn": "Nittedal Trygdekontor"
+  },
+  {
+    "kode": "03456",
+    "navn": "Møllergt. 23/25, Oslo"
+  },
+  {
+    "kode": "03459",
+    "navn": "Nord Universitet Skoleg. Steinkj"
+  },
+  {
+    "kode": "03460",
+    "navn": "Kongens gt. 93"
+  },
+  {
+    "kode": "03463",
+    "navn": "Tronka, Erling Skakkes gt. 66"
+  },
+  {
+    "kode": "03467",
+    "navn": "Tollsletten, Bodø"
+  },
+  {
+    "kode": "03468",
+    "navn": "Tollbodgaten 1, Ålesund"
+  },
+  {
+    "kode": "03469",
+    "navn": "Moloveien 10, Bodø"
+  },
+  {
+    "kode": "03471",
+    "navn": "Justisbygget i Mosjøen"
+  },
+  {
+    "kode": "03472",
+    "navn": "Levanger Trafikkstasjon"
+  },
+  {
+    "kode": "03476",
+    "navn": "Magnormoen Kontrollplass"
+  },
+  {
+    "kode": "03481",
+    "navn": "Universitetet i Stavanger"
+  },
+  {
+    "kode": "03482",
+    "navn": "Statens Innkrevingssentral"
+  },
+  {
+    "kode": "03483",
+    "navn": "Mosjøen Tollsted"
+  },
+  {
+    "kode": "03489",
+    "navn": "Heggen og Frøland Sorenskr."
+  },
+  {
+    "kode": "03494",
+    "navn": "Tomter i Trondheim"
+  },
+  {
+    "kode": "03500",
+    "navn": "Universitetet i Tromsø, Kunstfag"
+  },
+  {
+    "kode": "03502",
+    "navn": "Dragvoll, Bygninger for NTNU"
+  },
+  {
+    "kode": "03506",
+    "navn": "Tomt;veggrunn Gullbergv/Monolitt"
+  },
+  {
+    "kode": "03511",
+    "navn": "Svanhovd Miljøsenter Bolig"
+  },
+  {
+    "kode": "03512",
+    "navn": "Pilestredet 19-21, Oslo"
+  },
+  {
+    "kode": "03514",
+    "navn": "Oslo Politidistrikt, Hundetjenesten"
+  },
+  {
+    "kode": "03519",
+    "navn": "Bygdøy allé 76,oslo,latvisk Kons"
+  },
+  {
+    "kode": "03520",
+    "navn": "Høyesteretts Hus, Oslo"
+  },
+  {
+    "kode": "03522",
+    "navn": "UiA, Campus Kristiansand"
+  },
+  {
+    "kode": "03523",
+    "navn": "Nedre Foss, Oslo"
+  },
+  {
+    "kode": "03524",
+    "navn": "Egersund Trafikkstasjon"
+  },
+  {
+    "kode": "03525",
+    "navn": "Pilestredet 12, Oslo"
+  },
+  {
+    "kode": "03528",
+    "navn": "S. for Marint Miljø og Sikkerh."
+  },
+  {
+    "kode": "03531",
+    "navn": "Hamar Tinghus"
+  },
+  {
+    "kode": "03532",
+    "navn": "Nordre gt 2, Oslo"
+  },
+  {
+    "kode": "03533",
+    "navn": "Hausmanns gate 34, Oslo"
+  },
+  {
+    "kode": "03534",
+    "navn": "Hausmanns gate 40, Oslo"
+  },
+  {
+    "kode": "03535",
+    "navn": "Hausmanns gate 42, Oslo"
+  },
+  {
+    "kode": "03536",
+    "navn": "Tomt; Vestre Elvebakke 10, Oslo"
+  },
+  {
+    "kode": "03537",
+    "navn": "Tomt; Vestre Elvebakke 12, Oslo"
+  },
+  {
+    "kode": "03538",
+    "navn": "Tomt; Vestre Elvebakke 14, Oslo"
+  },
+  {
+    "kode": "03539",
+    "navn": "Arendal Trafikkstasjon"
+  },
+  {
+    "kode": "03540",
+    "navn": "Tomt; Hausmanns gate 28, Oslo"
+  },
+  {
+    "kode": "03541",
+    "navn": "Brenneriveien 1, Oslo"
+  },
+  {
+    "kode": "03542",
+    "navn": "Møllergaten 48, Oslo"
+  },
+  {
+    "kode": "03543",
+    "navn": "Justervesenet, Kjeller"
+  },
+  {
+    "kode": "03544",
+    "navn": "Trøndelag tingrett - Steinkjer"
+  },
+  {
+    "kode": "03545",
+    "navn": "Statsarkivet, Kristiansand"
+  },
+  {
+    "kode": "03547",
+    "navn": "Statsmin. Bolig, Inkognitogt. 18"
+  },
+  {
+    "kode": "03548",
+    "navn": "Otta Trafikkstasjon"
+  },
+  {
+    "kode": "03550",
+    "navn": "Dronningensgt. 14"
+  },
+  {
+    "kode": "03551",
+    "navn": "Historikk Statsbygg Øst"
+  },
+  {
+    "kode": "03552",
+    "navn": "Historikk Statsbygg Vest"
+  },
+  {
+    "kode": "03553",
+    "navn": "Historikk Statsbygg Nord"
+  },
+  {
+    "kode": "03554",
+    "navn": "Historikk Statsbygg Sør"
+  },
+  {
+    "kode": "03555",
+    "navn": "Sjøgarasjen"
+  },
+  {
+    "kode": "03557",
+    "navn": "Historikk Statsbygg Midt-Norge"
+  },
+  {
+    "kode": "03558",
+    "navn": "Arkitektur- & Designhøgskolen i Oslo"
+  },
+  {
+    "kode": "03560",
+    "navn": "Tomt; Gaustadalléen 15, Oslo"
+  },
+  {
+    "kode": "03561",
+    "navn": "Statens hus 2, Moss,kongensgt.44"
+  },
+  {
+    "kode": "03562",
+    "navn": "Statens Hus, Lillehammer"
+  },
+  {
+    "kode": "03563",
+    "navn": "Lillehammer Tinghus"
+  },
+  {
+    "kode": "03564",
+    "navn": "Nedre gate 8, Oslo"
+  },
+  {
+    "kode": "03565",
+    "navn": "Kunsthøgskolen i Bergen"
+  },
+  {
+    "kode": "03567",
+    "navn": "Kontor for Russerne, Svalbard"
+  },
+  {
+    "kode": "03568",
+    "navn": "Sameskolen i Troms"
+  },
+  {
+    "kode": "03569",
+    "navn": "Høgskulen på Vestlandet - Haugesund"
+  },
+  {
+    "kode": "03570",
+    "navn": "UiO, Psykologisk Inst., Oslo. GA09 Harald Schjelderups hus."
+  },
+  {
+    "kode": "03571",
+    "navn": "Oslo Bispegård"
+  },
+  {
+    "kode": "03572",
+    "navn": "Kystverket Troms og Finnmark"
+  },
+  {
+    "kode": "03573",
+    "navn": "Hedmark Fengsel, Bruvoll Avd."
+  },
+  {
+    "kode": "03574",
+    "navn": "Framsenteret i Tromsø"
+  },
+  {
+    "kode": "03575",
+    "navn": "Jess Carlsen - Kvartalet, Oslo"
+  },
+  {
+    "kode": "03578",
+    "navn": "Gardermoen Tollsted"
+  },
+  {
+    "kode": "03579",
+    "navn": "Frydenlundgata 5, Oslo"
+  },
+  {
+    "kode": "03580",
+    "navn": "Jessheim Trafikkstasjon"
+  },
+  {
+    "kode": "03581",
+    "navn": "Markveien 3a, Sarpsborg"
+  },
+  {
+    "kode": "03583",
+    "navn": "Stasjonsbakken 1, Kongsberg"
+  },
+  {
+    "kode": "03584",
+    "navn": "Statsbygg Øst - Boliger"
+  },
+  {
+    "kode": "03585",
+    "navn": "Statens hus i Bergen"
+  },
+  {
+    "kode": "03586",
+    "navn": "Maridalsveien 14 - Fjellanlegg"
+  },
+  {
+    "kode": "03587",
+    "navn": "Grensekommissariatet i Kirkenes"
+  },
+  {
+    "kode": "03588",
+    "navn": "Nasjonalbiblioteket i Oslo"
+  },
+  {
+    "kode": "03590",
+    "navn": "Lervigveien 32 og 36"
+  },
+  {
+    "kode": "03592",
+    "navn": "Østensjøveien 51"
+  },
+  {
+    "kode": "03593",
+    "navn": "Teatergata 9 (Biengården), Oslo"
+  },
+  {
+    "kode": "03595",
+    "navn": "Bolig, vei 212 (Haugen) Svalbard"
+  },
+  {
+    "kode": "03596",
+    "navn": "Winklers vei 11"
+  },
+  {
+    "kode": "03597",
+    "navn": "Onsrud, Ullensaker"
+  },
+  {
+    "kode": "03599",
+    "navn": "Møllergata 1/3, Oslo"
+  },
+  {
+    "kode": "12345",
+    "navn": "Flåklypa verksted"
+  },
+  {
+    "kode": "13600",
+    "navn": "Sverdrup, Ny-Ålesund"
+  },
+  {
+    "kode": "13601",
+    "navn": "Visitasjonshall, Storskog"
+  },
+  {
+    "kode": "13602",
+    "navn": "Tukthuskvartalet, Oslo"
+  },
+  {
+    "kode": "13603",
+    "navn": "Tinghuset i Tromsø"
+  },
+  {
+    "kode": "13604",
+    "navn": "Kongsvinger Trafikkstasjon"
+  },
+  {
+    "kode": "13605",
+    "navn": "Trondheimv.119/123/125/Sinsenv.1"
+  },
+  {
+    "kode": "13606",
+    "navn": "Lille Sogn (Gaustadvn. 23), Oslo"
+  },
+  {
+    "kode": "13607",
+    "navn": "Statens Hus, Hamar"
+  },
+  {
+    "kode": "13609",
+    "navn": "Odderøya, Bygg nr. 017, Kr.sand"
+  },
+  {
+    "kode": "13610",
+    "navn": "Vestregata 65, Tromsø"
+  },
+  {
+    "kode": "13611",
+    "navn": "Grønnegata 126, Tromsø"
+  },
+  {
+    "kode": "13614",
+    "navn": "Moloveien 12"
+  },
+  {
+    "kode": "13615",
+    "navn": "Hamre Bunker 1, Kristiansand"
+  },
+  {
+    "kode": "13616",
+    "navn": "Østre Ringvei 77, Kristiansand"
+  },
+  {
+    "kode": "13617",
+    "navn": "Restareal tidl. Lagerbygg Tomasjord, Tromsø"
+  },
+  {
+    "kode": "13618",
+    "navn": "Valkendorfsgaten 6, Bergen"
+  },
+  {
+    "kode": "13619",
+    "navn": "Politihuset i Kirkenes"
+  },
+  {
+    "kode": "13620",
+    "navn": "Sametinget i Karasjok"
+  },
+  {
+    "kode": "13621",
+    "navn": "Hjelpemiddelsentralen i M & R"
+  },
+  {
+    "kode": "13622",
+    "navn": "Holberg Terrasse(Stensberggt.25)"
+  },
+  {
+    "kode": "13623",
+    "navn": "Kystverket i Ålesund, Nyb, Nørve"
+  },
+  {
+    "kode": "13624",
+    "navn": "Byporten, Biskop Gunerusgt. 2"
+  },
+  {
+    "kode": "13625",
+    "navn": "Tomt; Hausmanns gate 30/32, Oslo"
+  },
+  {
+    "kode": "13626",
+    "navn": "Tomt; Justisbygget i Moss"
+  },
+  {
+    "kode": "13628",
+    "navn": "Kongsberg politistasjon"
+  },
+  {
+    "kode": "13637",
+    "navn": "Lilongwe, Amb i Embetsbolig"
+  },
+  {
+    "kode": "13720",
+    "navn": "Veterinær Grensekontr., Garderm."
+  },
+  {
+    "kode": "13721",
+    "navn": "Bern, Ambassaden i"
+  },
+  {
+    "kode": "13722",
+    "navn": "Festeavtale: Sletta Borettslag"
+  },
+  {
+    "kode": "13728",
+    "navn": "Ringerike fengsel"
+  },
+  {
+    "kode": "13730",
+    "navn": "Hauger Magasin"
+  },
+  {
+    "kode": "13757",
+    "navn": "Statens hus 1 Moss"
+  },
+  {
+    "kode": "13786",
+    "navn": "Kampala, Ambassaden i"
+  },
+  {
+    "kode": "13787",
+    "navn": "Lille Grensen 5"
+  },
+  {
+    "kode": "13789",
+    "navn": "Operaen, Bjørvika"
+  },
+  {
+    "kode": "13792",
+    "navn": "Havforskningsinstituttet Matre"
+  },
+  {
+    "kode": "13793",
+    "navn": "Havforskningsinstituttet Austevoll"
+  },
+  {
+    "kode": "13794",
+    "navn": "Havbruksstasjon, Kårvika, Tromsø"
+  },
+  {
+    "kode": "13795",
+    "navn": "Nofima i Tromsø (Fiskeriforsk.)"
+  },
+  {
+    "kode": "13797",
+    "navn": "Havforskningsinstituttet, Flødevigen"
+  },
+  {
+    "kode": "13798",
+    "navn": "Oscarshall"
+  },
+  {
+    "kode": "13799",
+    "navn": "Maputo, Kanselli"
+  },
+  {
+    "kode": "13800",
+    "navn": "Hålogaland Teater, Tromsø"
+  },
+  {
+    "kode": "13801",
+    "navn": "Madrid, Embetsbolig"
+  },
+  {
+    "kode": "13804",
+    "navn": "Universitetet i Bergen - Kunst, Musikk og Design"
+  },
+  {
+    "kode": "13805",
+    "navn": "Ubebygget Areal, Bymyra i Tromsø"
+  },
+  {
+    "kode": "13812",
+    "navn": "Pilestredet 32 - Historikk"
+  },
+  {
+    "kode": "13816",
+    "navn": "Venezia , Den Nordiske Paviljong"
+  },
+  {
+    "kode": "13820",
+    "navn": "Høgskulen på Vestlandet - Bergen"
+  },
+  {
+    "kode": "13821",
+    "navn": "Sofia, Ambassaden i"
+  },
+  {
+    "kode": "13823",
+    "navn": "Halden Fengsel"
+  },
+  {
+    "kode": "13824",
+    "navn": "Høgskulen på Vestlandet - Skålevik"
+  },
+  {
+    "kode": "13825",
+    "navn": "Svalbard Forskningspark"
+  },
+  {
+    "kode": "13830",
+    "navn": "Svinesund Kontrollområde"
+  },
+  {
+    "kode": "13831",
+    "navn": "Thormøhlens gate 55a i Bergen"
+  },
+  {
+    "kode": "13832",
+    "navn": "Brussel, Kontorbygg"
+  },
+  {
+    "kode": "13834",
+    "navn": "Ankara, Embetsboligen i"
+  },
+  {
+    "kode": "13835",
+    "navn": "Kongsvinger Fengsel, Vardåsen"
+  },
+  {
+    "kode": "13848",
+    "navn": "Storveien 121, Gressvik (Moringen)"
+  },
+  {
+    "kode": "13850",
+    "navn": "Østfold Ung-Og F.knappestøperen"
+  },
+  {
+    "kode": "13851",
+    "navn": "Knappestøperen, Avd. Sponheimvn."
+  },
+  {
+    "kode": "13852",
+    "navn": "Agder Behandling Ungdom, Toppen"
+  },
+  {
+    "kode": "13853",
+    "navn": "Eikhaugen/Nyli Gård, Arendal"
+  },
+  {
+    "kode": "13854",
+    "navn": "Nesverkveien 188 og 190, Nes Verk (Nes)"
+  },
+  {
+    "kode": "13855",
+    "navn": "Austenå 370, Dølemo (Tovdal)"
+  },
+  {
+    "kode": "13856",
+    "navn": "Åsaveien 662, Hønefoss (Solstrand)"
+  },
+  {
+    "kode": "13857",
+    "navn": "Frogner Hovedgård, Skien"
+  },
+  {
+    "kode": "13858",
+    "navn": "Kjørbekksvingen 38, Skien (Kjørbekk)"
+  },
+  {
+    "kode": "13859",
+    "navn": "Skien Ungdoms- og Familiesenter"
+  },
+  {
+    "kode": "13860",
+    "navn": "Telemark Barne- og Familiesenter"
+  },
+  {
+    "kode": "13861",
+    "navn": "Haugetuft 18, Vinje (Miljøheimen)"
+  },
+  {
+    "kode": "13862",
+    "navn": "Dnø Behandlingssenter, Porsgrunn"
+  },
+  {
+    "kode": "13863",
+    "navn": "Solheiveien 25, Lyngdal (Skomrak)"
+  },
+  {
+    "kode": "13864",
+    "navn": "Fridtjof Nansens vei 12 A, Mandal (Furuly)"
+  },
+  {
+    "kode": "13865",
+    "navn": "Agder fengsel, Solholmen Overgangsbolig"
+  },
+  {
+    "kode": "13866",
+    "navn": "Bispegra 52 Kristiansand (St Hansgården)"
+  },
+  {
+    "kode": "13867",
+    "navn": "Borgejordet, Larvik"
+  },
+  {
+    "kode": "13868",
+    "navn": "Faun, Horten"
+  },
+  {
+    "kode": "13869",
+    "navn": "Grimestadveien 69, Stokke (Stokke Barnesenter)"
+  },
+  {
+    "kode": "13870",
+    "navn": "Kantarellveien 25, Barkåker (Barkåker)"
+  },
+  {
+    "kode": "13871",
+    "navn": "Jarlsberg Ungd-Families. Gokstad"
+  },
+  {
+    "kode": "13872",
+    "navn": "Damtjernveien 598, Svarstad (Skjerven)"
+  },
+  {
+    "kode": "13875",
+    "navn": "Østheimveien 14, Gml Fredr (Østheim)"
+  },
+  {
+    "kode": "13876",
+    "navn": "Jibbe Ungdomssenter, Sarpsborg"
+  },
+  {
+    "kode": "13877",
+    "navn": "Jibbe Ungdomssenter, Halden"
+  },
+  {
+    "kode": "13878",
+    "navn": "Ugleveien 1, Grålum (Tune)"
+  },
+  {
+    "kode": "13879",
+    "navn": "Kurlandveien 12, Sarpsborg (Kurland)"
+  },
+  {
+    "kode": "13881",
+    "navn": "Alfheimveien 6, Halden (Alfheim)"
+  },
+  {
+    "kode": "13882",
+    "navn": "Skiptvet Omsorgssenter, Brekkev."
+  },
+  {
+    "kode": "13883",
+    "navn": "Dr. Thorshaugs veg 6 og 8, Stange (Stange)"
+  },
+  {
+    "kode": "13884",
+    "navn": "Stange Ungdomshjem, Furubergvn."
+  },
+  {
+    "kode": "13885",
+    "navn": "Snorres veg 2, Kirkenær (Grue)"
+  },
+  {
+    "kode": "13887",
+    "navn": "Søvik Omsorgssenter"
+  },
+  {
+    "kode": "13888",
+    "navn": "Storåsen Barne og Familiesenter"
+  },
+  {
+    "kode": "13889",
+    "navn": "Yttrabekken Ungdomsheim, Mo"
+  },
+  {
+    "kode": "13890",
+    "navn": "Clausenengen Ungdomsh., Kr.sund"
+  },
+  {
+    "kode": "13891",
+    "navn": "Clausenengen Ungdomshj., Kr.sund"
+  },
+  {
+    "kode": "13892",
+    "navn": "Stuevollveien 6, Molde"
+  },
+  {
+    "kode": "13893",
+    "navn": "Kollen Ungdomsbase, Vestnes"
+  },
+  {
+    "kode": "13894",
+    "navn": "Viktoria familiesenter, Trondheim"
+  },
+  {
+    "kode": "13895",
+    "navn": "Gartnerhaugen Videreføringsenhet"
+  },
+  {
+    "kode": "13896",
+    "navn": "Kvammen Akuttinstitusj., Melhus"
+  },
+  {
+    "kode": "13897",
+    "navn": "Kløvertunet. Volda"
+  },
+  {
+    "kode": "13898",
+    "navn": "Røvika Ungdomssenter, Fauske"
+  },
+  {
+    "kode": "13899",
+    "navn": "Husafjellheimen ungdomsheim"
+  },
+  {
+    "kode": "13900",
+    "navn": "Karienborg Ungdomsheim, Levanger"
+  },
+  {
+    "kode": "13901",
+    "navn": "Grønlihøgda 22 og 24, Spillum (Spillumheimen)"
+  },
+  {
+    "kode": "13902",
+    "navn": "Fergeland Barnev.inst, Steinkjer"
+  },
+  {
+    "kode": "13912",
+    "navn": "Klukevegen 30, Hamar (Vien)"
+  },
+  {
+    "kode": "13913",
+    "navn": "Gjøvik Barnev.-Omsorg. Mjøsvoll"
+  },
+  {
+    "kode": "13914",
+    "navn": "Marmorvegen 23, Gjøvik (Seljelia)"
+  },
+  {
+    "kode": "13915",
+    "navn": "Bærum omsorgssenter for barn"
+  },
+  {
+    "kode": "13916",
+    "navn": "Emma Hjortsvei 60, Sandvika (Jong/Åsen)"
+  },
+  {
+    "kode": "13917",
+    "navn": "Korpåsen 172, Asker (Gullhella)"
+  },
+  {
+    "kode": "13918",
+    "navn": "Gullhella, Avd. Helgerud, Bærum"
+  },
+  {
+    "kode": "13919",
+    "navn": "Eidsvoll Ungdomsenhet"
+  },
+  {
+    "kode": "13920",
+    "navn": "Trondheimsvegen - Jessheim 207 (Tjernlia)"
+  },
+  {
+    "kode": "13921",
+    "navn": "Fjellet Ungdomshjem, Nannestad"
+  },
+  {
+    "kode": "13922",
+    "navn": "Kroerveien 9, Vestby (Follo)"
+  },
+  {
+    "kode": "13923",
+    "navn": "Solfallsveien 27 (Ås ungdomssenter)"
+  },
+  {
+    "kode": "13925",
+    "navn": "Njords vei 11, Vestby (Sole)"
+  },
+  {
+    "kode": "13926",
+    "navn": "Liaveien 2, 4, 6, Aurskog (Lierfoss)"
+  },
+  {
+    "kode": "13927",
+    "navn": "Nymo Ungdomshjem - Finstadvn. 8"
+  },
+  {
+    "kode": "13928",
+    "navn": "Hammerfest Ungdomshjem"
+  },
+  {
+    "kode": "13929",
+    "navn": "Kråkstadveien 1, leil. 306, Ski"
+  },
+  {
+    "kode": "13930",
+    "navn": "Ishavsbyen Ungdomssenter"
+  },
+  {
+    "kode": "13931",
+    "navn": "Lamo Ungdomssenter"
+  },
+  {
+    "kode": "13932",
+    "navn": "Sollia Barne- og ungdomssenter"
+  },
+  {
+    "kode": "13933",
+    "navn": "Alta Ungdomshjem, N Ringv 9-11"
+  },
+  {
+    "kode": "13934",
+    "navn": "Bergstien Bofellesskap, Vadsø"
+  },
+  {
+    "kode": "13935",
+    "navn": "Tomt Fjellveien, Vadsø"
+  },
+  {
+    "kode": "13936",
+    "navn": "Sogn og Fjordane ungdomssenter avd. Bregnetunet"
+  },
+  {
+    "kode": "13937",
+    "navn": "Sogn og fjordane ungdomssenter avd. Meltunet"
+  },
+  {
+    "kode": "13938",
+    "navn": "Sogndal ungdomssenter, Rødstokken"
+  },
+  {
+    "kode": "13939",
+    "navn": "Hetlandstunet Ungdomssenter"
+  },
+  {
+    "kode": "13940",
+    "navn": "Stavanger Akutts., Avd. Madla"
+  },
+  {
+    "kode": "13941",
+    "navn": "Skåland Ungdomsbase"
+  },
+  {
+    "kode": "13942",
+    "navn": "Senter for Foreldre og Barn avd. Stavanger"
+  },
+  {
+    "kode": "13943",
+    "navn": "Oppveksthjemmet Villa Hvit, Stvg"
+  },
+  {
+    "kode": "13944",
+    "navn": "Villa Rød, Stavanger Ungdomssenter avd. Våland"
+  },
+  {
+    "kode": "13945",
+    "navn": "Bergen Akutts. Ungd. Klokkarlia"
+  },
+  {
+    "kode": "13946",
+    "navn": "Bønesskogen, Bjørgvin ungdomssenter"
+  },
+  {
+    "kode": "13947",
+    "navn": "Bønesstølen, Bjørgvin ungdomssenter"
+  },
+  {
+    "kode": "13948",
+    "navn": "Skjoldvegen barnevernsenter avd. Fyllingsdalen (Ungdomsbase)"
+  },
+  {
+    "kode": "13949",
+    "navn": "Skjoldvegen Barnevernsenter"
+  },
+  {
+    "kode": "13950",
+    "navn": "Øvre Holen (TOM avhendes) Løvstakken B.verns. Avd Kringsjå"
+  },
+  {
+    "kode": "13951",
+    "navn": "Barnevernsenteret i Åsane"
+  },
+  {
+    "kode": "13952",
+    "navn": "Ungdomsfamiliene Avd. Vertsfam."
+  },
+  {
+    "kode": "13953",
+    "navn": "Knutsatunet Ungdomsheim, Stord"
+  },
+  {
+    "kode": "13997",
+    "navn": "Wildhagens vei 17, Drammen (Erik Børresen)"
+  },
+  {
+    "kode": "13998",
+    "navn": "Hokksund Ungdoms. og Familiesen."
+  },
+  {
+    "kode": "13999",
+    "navn": "Geithus Ungdoms- og Familiesent."
+  },
+  {
+    "kode": "14000",
+    "navn": "Blåklokka, Senter for foreldre og barn avd. Førde"
+  },
+  {
+    "kode": "14002",
+    "navn": "Kathmandu, Ambassadenanlegg"
+  },
+  {
+    "kode": "14203",
+    "navn": "Himdalen Lager- og Avfallsdeponi"
+  },
+  {
+    "kode": "14204",
+    "navn": "Trondheim Fengsel, Kongens gate"
+  },
+  {
+    "kode": "14206",
+    "navn": "Sarpsborg Fengsel"
+  },
+  {
+    "kode": "14223",
+    "navn": "Peder Jebsensvei 10, Bergen"
+  },
+  {
+    "kode": "14224",
+    "navn": "Høgskolen på Stabekk (Utskilt)"
+  },
+  {
+    "kode": "14226",
+    "navn": "Solbakken Barne- og Fam. Tromsø"
+  },
+  {
+    "kode": "14227",
+    "navn": "Gråbrødrevn. 10 - leil 600, Oslo"
+  },
+  {
+    "kode": "14235",
+    "navn": "Fergeland, Avd. Bogasvingen"
+  },
+  {
+    "kode": "14236",
+    "navn": "Familievernkontoret, Namsos"
+  },
+  {
+    "kode": "14259",
+    "navn": "Harstad Ungdomshjem"
+  },
+  {
+    "kode": "14260",
+    "navn": "Solveien 26 A, Hammerfest"
+  },
+  {
+    "kode": "14261",
+    "navn": "Alta Ungdomshjem, Tollevikv. 17d"
+  },
+  {
+    "kode": "14262",
+    "navn": "Senter for Marin Akvakultur"
+  },
+  {
+    "kode": "14268",
+    "navn": "Høgskulen på Vestlandet - tomt Haugesund"
+  },
+  {
+    "kode": "14271",
+    "navn": "Tromsø Ungdomssenter, Håkøyveien"
+  },
+  {
+    "kode": "14272",
+    "navn": "Stjørdal Ungdomssent Kirkev. 33"
+  },
+  {
+    "kode": "14273",
+    "navn": "Troll Forskningsstasjon"
+  },
+  {
+    "kode": "14275",
+    "navn": "Ginabakken, Haugesund"
+  },
+  {
+    "kode": "14276",
+    "navn": "Knutsatunet"
+  },
+  {
+    "kode": "14277",
+    "navn": "Stavanger Ungdomssenter avd. Lindøy"
+  },
+  {
+    "kode": "14278",
+    "navn": "Akuttmottak for Ungdom, Bergen"
+  },
+  {
+    "kode": "14279",
+    "navn": "Bufetat, Lagårdsveien Stavanger"
+  },
+  {
+    "kode": "14280",
+    "navn": "Bergen Barn- og Foreldres. Sudm."
+  },
+  {
+    "kode": "14282",
+    "navn": "Stavanger Akutts., Avd Røyneberg"
+  },
+  {
+    "kode": "14284",
+    "navn": "Havforskn. Bergen, Nordnesgt. 33"
+  },
+  {
+    "kode": "14285",
+    "navn": "Alta Ungdomssenter Strandv. 6/12"
+  },
+  {
+    "kode": "14290",
+    "navn": "Mosjøen Fengsel"
+  },
+  {
+    "kode": "14291",
+    "navn": "Indre Østfold Fengsel, Trøgstad"
+  },
+  {
+    "kode": "14310",
+    "navn": "Bergen Akuttsenter avd. Nattland"
+  },
+  {
+    "kode": "14311",
+    "navn": "Årstad Familiesenter"
+  },
+  {
+    "kode": "14335",
+    "navn": "Ikke Statsbygg sitt byg - Sis-Hallen, Stavanger"
+  },
+  {
+    "kode": "14336",
+    "navn": "Buøy i Brønnøy"
+  },
+  {
+    "kode": "14338",
+    "navn": "Målsjøen, Klæbu"
+  },
+  {
+    "kode": "14341",
+    "navn": "Nye Statens hus Leikanger"
+  },
+  {
+    "kode": "14342",
+    "navn": "Ginabakken, Fartein V.gt., Hgsd"
+  },
+  {
+    "kode": "14343",
+    "navn": "Åker Gård, Hamar"
+  },
+  {
+    "kode": "14344",
+    "navn": "Vesterlivegen 15, Tromsø"
+  },
+  {
+    "kode": "14345",
+    "navn": "Kontrollstasjon Tromsdalen"
+  },
+  {
+    "kode": "14346",
+    "navn": "Praha, Embetsbolig"
+  },
+  {
+    "kode": "14347",
+    "navn": "Politiets Stall og Ridehus Akershus festning, Oslo"
+  },
+  {
+    "kode": "14348",
+    "navn": "Kasa, Avd. Sandsli"
+  },
+  {
+    "kode": "14349",
+    "navn": "Bjørgvin Ungd.sent. Bjørnehaugen"
+  },
+  {
+    "kode": "14350",
+    "navn": "Gulating Lagmannsrett"
+  },
+  {
+    "kode": "14355",
+    "navn": "Skjoldvegen barnevernsenter, Jentehaugen"
+  },
+  {
+    "kode": "14356",
+    "navn": "Munkegt. 2"
+  },
+  {
+    "kode": "14357",
+    "navn": "Munkegt. 4"
+  },
+  {
+    "kode": "14358",
+    "navn": "Munkegt. 6"
+  },
+  {
+    "kode": "14359",
+    "navn": "Kjøpmannsgt. 1"
+  },
+  {
+    "kode": "14362",
+    "navn": "Randabergfjellet"
+  },
+  {
+    "kode": "14363",
+    "navn": "Vilnius, Amb. Embetsbolig"
+  },
+  {
+    "kode": "14364",
+    "navn": "Nova, Munthes gate 29, Oslo"
+  },
+  {
+    "kode": "14365",
+    "navn": "Historikk Eu"
+  },
+  {
+    "kode": "14367",
+    "navn": "Tomt, Uio,inst.for Informatikk 2"
+  },
+  {
+    "kode": "14372",
+    "navn": "Historisk Grunn - Region Nord"
+  },
+  {
+    "kode": "14376",
+    "navn": "Lyderhorn Overgangsbolig"
+  },
+  {
+    "kode": "14377",
+    "navn": "Kasa, Avd. Flatøy"
+  },
+  {
+    "kode": "14378",
+    "navn": "Tirilltunga, Holmlia"
+  },
+  {
+    "kode": "14379",
+    "navn": "Hybelhus for Studentsamskipnaden"
+  },
+  {
+    "kode": "14382",
+    "navn": "Svalbard"
+  },
+  {
+    "kode": "14384",
+    "navn": "Nord-Hålogaland Bispedømmekontor"
+  },
+  {
+    "kode": "14385",
+    "navn": "Umbukta Kontrollgar. Mo Tollsted"
+  },
+  {
+    "kode": "14386",
+    "navn": "Iris-Bygget"
+  },
+  {
+    "kode": "14390",
+    "navn": "Ilseng Fengsel - Nytt Vaktbygg"
+  },
+  {
+    "kode": "14391",
+    "navn": "Peder Morsets vei 19b"
+  },
+  {
+    "kode": "14393",
+    "navn": "Vadsø Ungdomssenter"
+  },
+  {
+    "kode": "14396",
+    "navn": "Sannangt. 3 - Steinkjer"
+  },
+  {
+    "kode": "14399",
+    "navn": "Tomter i Alta"
+  },
+  {
+    "kode": "14401",
+    "navn": "Haugesund Barnevernsenter"
+  },
+  {
+    "kode": "14402",
+    "navn": "Bjørgvin Ungd.sent. Os/Heggl."
+  },
+  {
+    "kode": "14403",
+    "navn": "Kasa, Avd. Skjold"
+  },
+  {
+    "kode": "14405",
+    "navn": "Ä´vv Skoltesamisk Museum, Neiden"
+  },
+  {
+    "kode": "14406",
+    "navn": "Kjell Henriksen Observatoriet"
+  },
+  {
+    "kode": "14407",
+    "navn": "ØSTSAMISK MUSEUM I NEIDEN"
+  },
+  {
+    "kode": "14408",
+    "navn": "Barnevernsenter Åsane/Tjuvika"
+  },
+  {
+    "kode": "14409",
+    "navn": "Em-Tiltaket Avd. Minde"
+  },
+  {
+    "kode": "14410",
+    "navn": "Svalbard Globale Frøhvelv"
+  },
+  {
+    "kode": "14414",
+    "navn": "Berlevåg politistasjon"
+  },
+  {
+    "kode": "14416",
+    "navn": "Oppveksthjemmet Villa Hvit Madla"
+  },
+  {
+    "kode": "14417",
+    "navn": "Bodø Fengsel, Avd. Fauske"
+  },
+  {
+    "kode": "14418",
+    "navn": "Hamburg, Residens"
+  },
+  {
+    "kode": "14419",
+    "navn": "Adamstuen Tomt, Thulstrups gt.3 (Vet.høgs)"
+  },
+  {
+    "kode": "14420",
+    "navn": "Frei Interim"
+  },
+  {
+    "kode": "14425",
+    "navn": "Bastian Widths gt. 11 Molde"
+  },
+  {
+    "kode": "14426",
+    "navn": "Bufetat- Bastian Withsgt. 11 A"
+  },
+  {
+    "kode": "14429",
+    "navn": "Kasa, Avd. Tertnes"
+  },
+  {
+    "kode": "14431",
+    "navn": "Kaldlager Svalbard"
+  },
+  {
+    "kode": "14436",
+    "navn": "Zagreb, Embetsboligen i"
+  },
+  {
+    "kode": "14438",
+    "navn": "Historiske Fengselsbygg"
+  },
+  {
+    "kode": "14439",
+    "navn": "Em-Tiltaket Avd. Ibsensgt."
+  },
+  {
+    "kode": "14440",
+    "navn": "Saemien Sijte- sørsamisk museum og kultursenter"
+  },
+  {
+    "kode": "14445",
+    "navn": "Kvæfjord Ungdomssenter"
+  },
+  {
+    "kode": "14446",
+    "navn": "Politimesterbolig i Hammerfest"
+  },
+  {
+    "kode": "14447",
+    "navn": "Romerike Fengsel, Kroksrud Avd."
+  },
+  {
+    "kode": "14448",
+    "navn": "Lofoten Ungdomssenter, Gimsøy"
+  },
+  {
+    "kode": "14449",
+    "navn": "Olsvika Barnehjem"
+  },
+  {
+    "kode": "14451",
+    "navn": "Gaustad, Trimveien 6 (Sio)"
+  },
+  {
+    "kode": "14459",
+    "navn": "Bergen Akuttsenter Ungd.- Nordås"
+  },
+  {
+    "kode": "14657",
+    "navn": "Norsk Reiselivsmuseum"
+  },
+  {
+    "kode": "14658",
+    "navn": "Lunde behandlingssenter"
+  },
+  {
+    "kode": "14659",
+    "navn": "Bergen akuttsenter - Toppe"
+  },
+  {
+    "kode": "14660",
+    "navn": "Storgata 38, Kabelvåg"
+  },
+  {
+    "kode": "14663",
+    "navn": "Kasa avd. Morvik"
+  },
+  {
+    "kode": "14664",
+    "navn": "Sandnes ungdomssenter"
+  },
+  {
+    "kode": "14665",
+    "navn": "Prishtina, Embetsbolig"
+  },
+  {
+    "kode": "14667",
+    "navn": "Regjeringskvart. - Teatergt. 5"
+  },
+  {
+    "kode": "14669",
+    "navn": "Kasjotten, Skjetten"
+  },
+  {
+    "kode": "14671",
+    "navn": "Skiptvet Omsorgssenter, Finlands"
+  },
+  {
+    "kode": "14675",
+    "navn": "Skiptvet Omsorgssenter,engskleiv"
+  },
+  {
+    "kode": "14676",
+    "navn": "Haxthausens gt. 3, Oslo (Bolig)"
+  },
+  {
+    "kode": "14677",
+    "navn": "NTNU/SIT Helgasetr."
+  },
+  {
+    "kode": "14678",
+    "navn": "Domus Medica, Tilbygg, Gaustad"
+  },
+  {
+    "kode": "14681",
+    "navn": "UiO, Tøyen"
+  },
+  {
+    "kode": "14688",
+    "navn": "Havforskningsinstituttet Holmfjord Feltstasjon"
+  },
+  {
+    "kode": "14689",
+    "navn": "Bodø Fengsel, Overgangsbolig"
+  },
+  {
+    "kode": "14695",
+    "navn": "Bjørgvin Fengsel"
+  },
+  {
+    "kode": "14696",
+    "navn": "Høgskolen i Tel. Kjølnes Ring 32"
+  },
+  {
+    "kode": "14697",
+    "navn": "Statped Nord Tromsø"
+  },
+  {
+    "kode": "14698",
+    "navn": "Nye Junkerdal Tollsted"
+  },
+  {
+    "kode": "14699",
+    "navn": "Islamabad, Ambassaden i"
+  },
+  {
+    "kode": "14704",
+    "navn": "Molde Tinghus"
+  },
+  {
+    "kode": "14705",
+    "navn": "Kvalvågveien 113"
+  },
+  {
+    "kode": "14708",
+    "navn": "Grubbegata 14, Innleid"
+  },
+  {
+    "kode": "14709",
+    "navn": "Nordbybråten Sivilforsvarsleir"
+  },
+  {
+    "kode": "14710",
+    "navn": "Gvarv, Sauherad (Tomt)"
+  },
+  {
+    "kode": "14711",
+    "navn": "Najadens Minde, Tvedestrand"
+  },
+  {
+    "kode": "14712",
+    "navn": "Politihuset i Tromsø"
+  },
+  {
+    "kode": "14713",
+    "navn": "Frydenlundsgate 2, Oslo (Boliger"
+  },
+  {
+    "kode": "14714",
+    "navn": "Vabakkjen, Stord"
+  },
+  {
+    "kode": "14716",
+    "navn": "Historikk Kongelige Eiendommer"
+  },
+  {
+    "kode": "14718",
+    "navn": "Politiets Utlendingsenhet"
+  },
+  {
+    "kode": "14720",
+    "navn": "Norges Handelshøyskole"
+  },
+  {
+    "kode": "14721",
+    "navn": "Arkivv.depot og Norsk Helsearkiv"
+  },
+  {
+    "kode": "14723",
+    "navn": "Svolvær politistasjon"
+  },
+  {
+    "kode": "14724",
+    "navn": "Drammen tinghus"
+  },
+  {
+    "kode": "14819",
+    "navn": "Sørbråten"
+  },
+  {
+    "kode": "14823",
+    "navn": "Inkognitogata 20 A"
+  },
+  {
+    "kode": "14830",
+    "navn": "Berlin, Embetsbolig"
+  },
+  {
+    "kode": "14831",
+    "navn": "London, Amb Tjenestebolig"
+  },
+  {
+    "kode": "14832",
+    "navn": "London, Ambassade Embetsbolig"
+  },
+  {
+    "kode": "14834",
+    "navn": "Harare, Ambassade Embetsbolig"
+  },
+  {
+    "kode": "14835",
+    "navn": "Harare, Amb Tj. Bolig 2 - Br.16"
+  },
+  {
+    "kode": "14836",
+    "navn": "Harare, Amb Tj. Bolig 1-27 Glen"
+  },
+  {
+    "kode": "14837",
+    "navn": "Harare, Amb Tj. Bolig 3 - Br.14"
+  },
+  {
+    "kode": "14838",
+    "navn": "Kiev, Ambassade Tjenestebolig"
+  },
+  {
+    "kode": "14839",
+    "navn": "Lilongwe, 43/2/42 Tjenestebolig 1"
+  },
+  {
+    "kode": "14840",
+    "navn": "Lilongwe 10/540, Tjenestebolig 2"
+  },
+  {
+    "kode": "14841",
+    "navn": "Lilongwe, 43/2/89 Tjenestebolig 3"
+  },
+  {
+    "kode": "14842",
+    "navn": "Lilongwe, 10/305 Tjenestebolig 4"
+  },
+  {
+    "kode": "14843",
+    "navn": "Lisboa, Embetsbolig"
+  },
+  {
+    "kode": "14844",
+    "navn": "Lusaka, Ambassade Embetsbolig"
+  },
+  {
+    "kode": "14845",
+    "navn": "Lusaka, Ambassade Tjenestebolig"
+  },
+  {
+    "kode": "14846",
+    "navn": "Rabat, Embetsbolig"
+  },
+  {
+    "kode": "14847",
+    "navn": "Dar es Salaam, Embetsbolig"
+  },
+  {
+    "kode": "14848",
+    "navn": "Dar es Salaam, Tjenestebolig 1"
+  },
+  {
+    "kode": "14849",
+    "navn": "Dar es Salaam, Tjenestebolig 2"
+  },
+  {
+    "kode": "14851",
+    "navn": "Dar es Salaam, Tjenestebolig 3"
+  },
+  {
+    "kode": "14852",
+    "navn": "Nairobi, Tjenestebolig"
+  },
+  {
+    "kode": "14853",
+    "navn": "Nairobi, Ambassadeanlegg"
+  },
+  {
+    "kode": "14854",
+    "navn": "Paris, Ambassade Tjenestebolig"
+  },
+  {
+    "kode": "14855",
+    "navn": "Paris, Ambassade Embetsbolig"
+  },
+  {
+    "kode": "14856",
+    "navn": "Reykjavik, Embetsbolig"
+  },
+  {
+    "kode": "14858",
+    "navn": "Geneve, Fn-Del. Leiligheter"
+  },
+  {
+    "kode": "14859",
+    "navn": "Vilnius Amb Kanselli"
+  },
+  {
+    "kode": "14860",
+    "navn": "Canberra, Embetsbolig"
+  },
+  {
+    "kode": "14862",
+    "navn": "Stockholm Amb Tjenestebolig"
+  },
+  {
+    "kode": "14863",
+    "navn": "Buenos Aires, Embetsbolig"
+  },
+  {
+    "kode": "14864",
+    "navn": "Haukeland Parkeringsanlegg"
+  },
+  {
+    "kode": "14869",
+    "navn": "Arendal Politistasjon"
+  },
+  {
+    "kode": "14871",
+    "navn": "Brønnøysundregistrene"
+  },
+  {
+    "kode": "14872",
+    "navn": "Houston, Generalkonsulat"
+  },
+  {
+    "kode": "14875",
+    "navn": "Harare, Tjenesteb. Breach 8"
+  },
+  {
+    "kode": "14876",
+    "navn": "Santiago, Kanselli"
+  },
+  {
+    "kode": "14880",
+    "navn": "Akersgata 64-68, Innleid"
+  },
+  {
+    "kode": "14881",
+    "navn": "Gullhaug torg 4, Innleid"
+  },
+  {
+    "kode": "14882",
+    "navn": "Kongensgate 8, Innleid"
+  },
+  {
+    "kode": "14883",
+    "navn": "Kirkegata 18, Innleid"
+  },
+  {
+    "kode": "14884",
+    "navn": "Kongensgate 20, Innleid"
+  },
+  {
+    "kode": "14885",
+    "navn": "Bygdø Kongsgård"
+  },
+  {
+    "kode": "14892",
+    "navn": "Sjukehusvegen, Volda"
+  },
+  {
+    "kode": "14893",
+    "navn": "Kløvertunet, Volda"
+  },
+  {
+    "kode": "14894",
+    "navn": "Athen, Embetsbolig"
+  },
+  {
+    "kode": "14896",
+    "navn": "Abuja, Ambassadeanlegg"
+  },
+  {
+    "kode": "14897",
+    "navn": "Øverbyveien 88-104, Gjøvik (Innlandet)"
+  },
+  {
+    "kode": "14899",
+    "navn": "Haakon V gate 1, Tønsberg"
+  },
+  {
+    "kode": "14900",
+    "navn": "Perimetersikring"
+  },
+  {
+    "kode": "14901",
+    "navn": "Tomt: Trimveien 4"
+  },
+  {
+    "kode": "14902",
+    "navn": "Regjeringskvart. G-Blokk"
+  },
+  {
+    "kode": "14903",
+    "navn": "Regjeringskvart. R 5"
+  },
+  {
+    "kode": "14904",
+    "navn": "Grimstad - Ubebygd Tomt"
+  },
+  {
+    "kode": "14910",
+    "navn": "Sletta Borettslag"
+  },
+  {
+    "kode": "14912",
+    "navn": "Arendal fengsel, Kleivgrend avd."
+  },
+  {
+    "kode": "14916",
+    "navn": "Songebukta - Arendal - Tomt"
+  },
+  {
+    "kode": "14919",
+    "navn": "UiT,Lærerutdanning/Pedagogikk ny"
+  },
+  {
+    "kode": "14923",
+    "navn": "Agder fengsel, Mandal avdeling"
+  },
+  {
+    "kode": "14924",
+    "navn": "Agder fengsel, Froland avdeling"
+  },
+  {
+    "kode": "14925",
+    "navn": "Gol sambruksstasjon"
+  },
+  {
+    "kode": "14927",
+    "navn": "New York, FN residens, Halcyon"
+  },
+  {
+    "kode": "14931",
+    "navn": "Nasjonalt minnested Utøya"
+  },
+  {
+    "kode": "14933",
+    "navn": "Gamvik politistasjon (i Mehamn)"
+  },
+  {
+    "kode": "14934",
+    "navn": "Nasjonalmuseet"
+  },
+  {
+    "kode": "14935",
+    "navn": "Huseby Pikeinternat"
+  },
+  {
+    "kode": "14936",
+    "navn": "New York, Generalkonsulat residens, Three Ten"
+  },
+  {
+    "kode": "14937",
+    "navn": "Statens eiendommer etter Røros kobberverk"
+  },
+  {
+    "kode": "14939",
+    "navn": "Storskog konferansehus"
+  },
+  {
+    "kode": "14941",
+    "navn": "Tomt Christian Fredriks plass, Oslo"
+  },
+  {
+    "kode": "14942",
+    "navn": "Ekebergveien 224 B"
+  },
+  {
+    "kode": "14943",
+    "navn": "Regjeringens biltjeneste"
+  },
+  {
+    "kode": "14944",
+    "navn": "Møllergata 11"
+  },
+  {
+    "kode": "14945",
+    "navn": "Hybler Longyearbyen"
+  },
+  {
+    "kode": "14946",
+    "navn": "Innleie Kontorlokaler Longyearbyen"
+  },
+  {
+    "kode": "14947",
+    "navn": "Meteorologisk Institutt, Blindern"
+  },
+  {
+    "kode": "14948",
+    "navn": "Buvika ungdomssenter"
+  },
+  {
+    "kode": "14949",
+    "navn": "VENABYGDSFJELLET - HYTTEEIENDOM"
+  },
+  {
+    "kode": "14950",
+    "navn": "Møllergata 13 B"
+  },
+  {
+    "kode": "14951",
+    "navn": "Frogs vei 19 Kongsberg (Lågen ungdomshjem)"
+  },
+  {
+    "kode": "14952",
+    "navn": "Møllergata 13"
+  },
+  {
+    "kode": "14953",
+    "navn": "Grøterød ungdomshjem"
+  },
+  {
+    "kode": "14954",
+    "navn": "Trekanttomten"
+  },
+  {
+    "kode": "14955",
+    "navn": "Klemenskirken"
+  },
+  {
+    "kode": "14956",
+    "navn": "Rio de Janeiro, Embetsbolig"
+  },
+  {
+    "kode": "14957",
+    "navn": "Norges Idrettshøgskole (NIH)"
+  },
+  {
+    "kode": "14958",
+    "navn": "Samisk vg. skole og Samisk nasjonalteater i Kautokeino"
+  },
+  {
+    "kode": "14959",
+    "navn": "Tønsberg Tinghus"
+  },
+  {
+    "kode": "14960",
+    "navn": "UiO, Livsvitenskap (LVB)"
+  },
+  {
+    "kode": "14961",
+    "navn": "Riggbygg"
+  },
+  {
+    "kode": "14962",
+    "navn": "Magnormoen politistasjon"
+  },
+  {
+    "kode": "14965",
+    "navn": "Trondsletten Habiliteringssenter - Åkervegen 4B"
+  },
+  {
+    "kode": "14966",
+    "navn": "Canada, Ottawa, embetsbolig"
+  },
+  {
+    "kode": "14967",
+    "navn": "Bodø Behandlingssenter"
+  },
+  {
+    "kode": "14968",
+    "navn": "Elvesletta Blokk 1 næringslokale"
+  }
+]
