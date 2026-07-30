@@ -73,7 +73,7 @@ footer p{margin:0;line-height:1.45}
   .grid{grid-template-columns:1fr}
   .status{grid-template-columns:1fr}
 }
-</style></head><body><header><h1>Kodeverksøk</h1><p>Enkelt søkeverktøy for eiendom, bygg og metadata. Oppdatert data fra 2025. Dobbeltsjekk ved behov.</p></header><main><div id="status" class="status"></div><div class="grid" id="cards"></div></main><footer><h3>Footer</h3><p>Kun til internt bruk. Forbehold om at data er utdatert. Sist oppdatert juli 2026.</p></footer><script>
+</style></head><body><header><h1>Kodeverksøk</h1><p>Enkelt søkeverktøy for eiendom, bygg og metadata. Oppdatert data fra 2025. Dobbeltsjekk ved behov.</p></header><main><div id="status" class="status"></div><div class="grid" id="cards"></div></main><footer><p>Kun til internt bruk. Forbehold om at data er utdatert. Sist oppdatert juli 2026.</p></footer><script>
 const defs=[['eiendommer','Eiendommer','Statsbyggs eiendomsnummer og eiendomsnavn'],['bygninger','Bygninger','Statsbygg byggningsnummer og byggningsnavn'],['fag','Fag','Fagkoder ihht. PA0603'],['systemkoder','Systemkoder','Systemkoder ihht. TFM/PA0702 vedlegg 2'],['tegningstyper','Tegningstyper','Tegningstyper ihht. PA 0603'],['informasjonstyper','Informasjonstyper','Informasjonstyper ihht. NS-3456:2022']];
 const data={};
 async function load(){const st=document.getElementById('status');for(const d of defs){try{const r=await fetch(d[0]+'.json');const j=await r.json();data[d[0]]=j;st.innerHTML+=`<div class=card><span class=ok>✓ ${d[0]}.json (${j.length})</span></div>`;}catch(e){data[d[0]]=[];st.innerHTML+=`<div class=card><span class=bad>✗ ${d[0]}.json</span></div>`;}}renderCards();}
