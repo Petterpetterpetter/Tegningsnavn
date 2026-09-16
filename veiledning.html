@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Veiledning for Tegningsnavn-verktøyene</title>
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --panel: #ffffff;
+      --ink: #172033;
+      --muted: #667085;
+      --line: #d9e2ec;
+      --blue: #0f62fe;
+      --blue-dark: #09356f;
+      --soft-blue: #eef4ff;
+      --green: #148247;
+      --shadow: 0 12px 32px rgba(16, 24, 40, 0.08);
+      --radius: 16px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.55;
+    }
+
+    header {
+      margin: 12px 16px 0;
+      padding: 30px 34px;
+      color: white;
+      background: linear-gradient(135deg, var(--blue-dark), var(--blue));
+      box-shadow: var(--shadow);
+    }
+
+    header h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 4vw, 40px);
+    }
+
+    header p {
+      margin: 0;
+      max-width: 900px;
+      color: #eaf2ff;
+      font-size: 17px;
+    }
+
+    .layout {
+      width: 100%;
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 22px 16px 30px;
+      display: grid;
+      grid-template-columns: 250px minmax(0, 1fr);
+      gap: 18px;
+      flex: 1;
+    }
+
+    nav {
+      position: sticky;
+      top: 16px;
+      align-self: start;
+      padding: 16px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    nav strong {
+      display: block;
+      margin-bottom: 10px;
+      color: #102a56;
+    }
+
+    nav a {
+      display: block;
+      padding: 8px 10px;
+      margin: 3px 0;
+      color: #27415f;
+      text-decoration: none;
+      border-radius: 9px;
+      font-size: 14px;
+    }
+
+    nav a:hover,
+    nav a:focus {
+      background: var(--soft-blue);
+      color: var(--blue-dark);
+      outline: none;
+    }
+
+    main {
+      min-width: 0;
+      display: grid;
+      gap: 18px;
+    }
+
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      color: #102a56;
+      font-size: 24px;
+    }
+
+    h3 {
+      margin: 22px 0 8px;
+      color: #1d3f70;
+      font-size: 17px;
+    }
+
+    p { margin: 8px 0 12px; }
+    ul, ol { padding-left: 24px; }
+    li { margin: 6px 0; }
+
+    code {
+      font-family: Consolas, "Courier New", monospace;
+      background: #eef2f7;
+      padding: 2px 6px;
+      border-radius: 6px;
+      overflow-wrap: anywhere;
+    }
+
+    pre {
+      padding: 14px;
+      overflow: auto;
+      background: #111827;
+      color: #f8fafc;
+      border-radius: 12px;
+      border: 1px solid #253047;
+    }
+
+    pre code {
+      padding: 0;
+      color: inherit;
+      background: transparent;
+    }
+
+    .tip {
+      margin-top: 14px;
+      padding: 12px 14px;
+      background: #f0fff7;
+      border: 1px solid #a9dfbf;
+      border-left: 5px solid var(--green);
+      border-radius: 10px;
+    }
+
+    .warning {
+      margin-top: 14px;
+      padding: 12px 14px;
+      background: #fff8eb;
+      border: 1px solid #f2d39b;
+      border-left: 5px solid #b54708;
+      border-radius: 10px;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 20px 28px;
+      background: white;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+
+    footer strong { color: #102a56; }
+
+    @media (max-width: 900px) {
+      header { margin: 0; padding: 24px 18px; }
+      .layout { grid-template-columns: 1fr; padding: 14px; }
+      nav { position: static; }
+      nav a { display: inline-block; margin-right: 4px; }
+      section { padding: 18px; }
+    }
+
+    @media print {
+      body { background: white; }
+      header { margin: 0; box-shadow: none; }
+      .layout { display: block; padding: 0; }
+      nav { display: none; }
+      section { box-shadow: none; break-inside: avoid; margin: 12px 0; }
+      footer { margin-top: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Veiledning</h1>
+    <p>En kort og praktisk veiledning for tegningsklargjøreren, filnavn-til-XML-verktøyet og kodeverksoppslaget.</p>
+  </header>
+
+  <div class="layout">
+    <nav aria-label="Innholdsfortegnelse">
+      <strong>Innhold</strong>
+      <a href="#tegningsklargjorer">Tegningsklargjører</a>
+      <a href="#filnavn-til-xml">Filnavn til XML</a>
+      <a href="#oppslag">Oppslag</a>
+      <a href="#kodeverk">Oppdatering av kodeverk</a>
+      <a href="#feilsoking">Feilsøking</a>
+      <a href="#datasett">Datasett og publisering</a>
+      <a href="#kontakt">Versjon og kontakt</a>
+    </nav>
+
+    <main>
+      <section id="tegningsklargjorer">
+        <h2>Tegningsklargjører</h2>
+        <h3>Formål</h3>
+        <p>Verktøyet brukes til å standardisere filnavn for FDVU-dokumentasjon, generere XML for Asta-import og generere BAT-fil for omdøping av filer.</p>
+
+        <h3>Fremgangsmåte</h3>
+        <ol>
+          <li>Dra inn filer eller velg filer/mappe.</li>
+          <li>Fyll inn eller korriger metadata i tabellen.</li>
+          <li>Bruk kodeoppslagene ved behov.</li>
+          <li>Trykk <strong>Generer alle nye filnavn</strong>.</li>
+          <li>Kontroller resultatene.</li>
+          <li>Last ned XML for Asta-import og BAT-fil for omdøping.</li>
+        </ol>
+
+        <div class="tip">
+          <strong>Tips:</strong> Arbeidsøkten lagres automatisk lokalt i nettleseren. Filnavn kan overstyres manuelt, og valideringsfeil markeres i tabellen.
+        </div>
+      </section>
+
+      <section id="filnavn-til-xml">
+        <h2>Filnavn til XML</h2>
+        <h3>Formål</h3>
+        <p>Verktøyet brukes når filene allerede har korrekt filnavn og man ønsker å generere XML til Asta uten manuell registrering av alle metadata.</p>
+
+        <h3>Fremgangsmåte</h3>
+        <ol>
+          <li>Legg inn filnavn ved dra-og-slipp, filvalg eller innliming av filnavn.</li>
+          <li>Verktøyet forsøker automatisk å tolke følgende mønster:</li>
+        </ol>
+
+        <pre><code>[Eiendomsnummer]-[Bygningsnummer]-[Etasje]-[Fag]-[Systemkode]-[Tegningstype]-[Løpenummer]_[Beskrivelse].[filtype]</code></pre>
+
+        <ol start="3">
+          <li>Kontroller metadataene i tabellen.</li>
+          <li>Legg inn arkivenhetid/mappeid.</li>
+          <li>Last ned XML.</li>
+        </ol>
+
+        <div class="tip">
+          <strong>Tips:</strong> Filnavn som ikke følger mønsteret får varsel. Alle tolkte felt kan redigeres manuelt før eksport.
+        </div>
+      </section>
+
+      <section id="oppslag">
+        <h2>Oppslag</h2>
+        <h3>Formål</h3>
+        <p>Verktøyet brukes til søk i kodeverk og referansedata.</p>
+
+        <h3>Tilgjengelige oppslag</h3>
+        <ul>
+          <li>Eiendommer</li>
+          <li>Bygninger</li>
+          <li>Fag</li>
+          <li>Systemkoder (TFM)</li>
+          <li>Tegningstyper</li>
+          <li>Informasjonstyper</li>
+        </ul>
+
+        <h3>Eiendomssøk</h3>
+        <p>Ved søk på eiendom vises eiendomsnummer, eiendomsnavn og tilknyttede bygninger.</p>
+
+        <h3>Byggsøk</h3>
+        <p>Ved søk på bygning vises byggnummer, byggnavn og tilhørende eiendom.</p>
+
+        <h3>Kodeverk</h3>
+        <p>Søk kan gjøres på både kode og navn eller beskrivelse.</p>
+      </section>
+
+      <section id="kodeverk">
+        <h2>Oppdatering av kodeverk</h2>
+        <p>Kodeverkene ligger som JSON-filer i repositoryet:</p>
+
+        <pre><code>eiendommer.json
+bygninger.json
+fag.json
+systemkoder.json
+tegningstyper.json
+informasjonstyper.json</code></pre>
+
+        <p>Etter oppdatering av filene trenger man normalt bare å laste siden på nytt.</p>
+      </section>
+
+      <section id="feilsoking">
+        <h2>Feilsøking</h2>
+
+        <h3>Kodeverk lastes ikke</h3>
+        <ul>
+          <li>Kontroller at JSON-filene ligger i samme mappe som HTML-filene.</li>
+          <li>Kontroller at GitHub Pages er publisert fra riktig branch og mappe.</li>
+          <li>Kontroller at JSON-filene inneholder gyldig JSON.</li>
+          <li>Tomme JSON-filer må inneholde <code>[]</code> og ikke være helt blanke.</li>
+        </ul>
+
+        <h3>Ingen treff i søk</h3>
+        <ul>
+          <li>Kontroller at JSON-filen er lastet inn.</li>
+          <li>Kontroller at søket er skrevet riktig.</li>
+          <li>Kontroller at det finnes data i kodeverket.</li>
+        </ul>
+
+        <h3>XML eksporteres ikke</h3>
+        <ul>
+          <li>Kontroller at tabellen inneholder minst én rad.</li>
+          <li>Kontroller at nødvendige metadata er fylt ut.</li>
+          <li>Kontroller at filnavnene er tolket korrekt.</li>
+        </ul>
+      </section>
+
+      <section id="datasett">
+        <h2>Datasett og publisering</h2>
+        <div class="warning">
+          Bygnings- og eiendomsdata skal kvalitetssikres før publisering. Datasettene kan derfor være midlertidig tomme eller fjernet fra den publiserte løsningen.
+        </div>
+      </section>
+
+      <section id="kontakt">
+        <h2>Versjon og kontakt</h2>
+        <p>Verktøyene er utviklet som nettleserbaserte HTML-verktøy og publiseres via GitHub Pages.</p>
+        <p><strong>Kontakt:</strong> Sett inn kontaktinformasjon her.</p>
+        <p><strong>Versjon:</strong> Sett inn versjonsinformasjon her.</p>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <strong>Veiledning for Tegningsnavn-verktøyene.</strong> Erstatt denne teksten med ønsket informasjon om eier, forvaltning eller bruksvilkår.
+  </footer>
+</body>
+</html>
