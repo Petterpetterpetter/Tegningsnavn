@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Filnavn til Asta XML</title>
+<style>
+:root{
+  --bg:#f5f7fb;--panel:#fff;--ink:#172033;--muted:#667085;--line:#d9e1ec;
+  --blue:#0f62fe;--green:#148247;--red:#b42318;--amber:#b54708;--shadow:0 10px 30px rgba(16,24,40,.08);
+  --radius:16px;
+}
+*{box-sizing:border-box}
+html,body{min-height:100%}
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink);display:flex;flex-direction:column}
+header{margin:10px 14px 0;padding:26px 30px;background:linear-gradient(135deg,#082f63,#0f62fe);color:#fff;box-shadow:var(--shadow)}
+header h1{margin:0 0 8px;font-size:30px} header p{margin:0;color:#eaf2ff;line-height:1.45;max-width:1100px}
+main{width:100%;max-width:1800px;margin:0 auto;padding:18px 14px 22px;flex:1}
+.grid{display:grid;grid-template-columns:310px minmax(0,1fr);gap:12px;align-items:start}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;overflow:hidden}
+.card h2{font-size:18px;margin:0 0 10px;color:#102a56}.card h3{font-size:15px;margin:13px 0 8px;color:#102a56}
+.small{font-size:12px;color:var(--muted);line-height:1.45}.msg{background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:10px;font-size:13px;white-space:pre-line;color:#344054}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.stack{display:flex;flex-direction:column;gap:8px}
+button,.btn{border:0;border-radius:10px;padding:10px 12px;background:var(--blue);color:#fff;font-weight:650;cursor:pointer;font-family:inherit;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:7px;font-size:13px}
+button.secondary,.btn.secondary{background:#eef2f7;color:#172033;border:1px solid #cfd8e5}button.green{background:var(--green)}button.red{background:var(--red)}button:disabled{opacity:.45;cursor:not-allowed}
+input,textarea,select{width:100%;max-width:100%;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font:inherit;background:#fff;color:var(--ink)}
+textarea{min-height:160px;resize:vertical} input:focus,textarea:focus,select:focus{outline:2px solid rgba(15,98,254,.18);border-color:#7aa7ff}
+input[type=file]{display:none}.drop{border:2px dashed #9bb9e8;background:#f7fbff;border-radius:14px;padding:16px;min-height:110px;display:flex;align-items:center;justify-content:center;text-align:center;flex-direction:column;gap:10px}.drop.drag{background:#eaf2ff;border-color:var(--blue)}
+.status{display:grid;grid-template-columns:1fr 1fr;gap:8px}.pill{background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:9px}.pill b{display:block;font-size:20px}.pill span{font-size:12px;color:var(--muted)}
+.toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:10px}.toolbar input{max-width:360px}
+.table-wrap{overflow:auto;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);height:calc(100vh - 235px);min-height:470px}
+table{border-collapse:separate;border-spacing:0;width:max-content;min-width:100%}th,td{border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px;background:#fff;vertical-align:top}th{position:sticky;top:0;background:#eef4ff;z-index:3;text-align:left;font-size:12px;color:#102a56;white-space:nowrap}
+th:first-child,td:first-child{position:sticky;left:0;background:#fff;z-index:2}th:first-child{z-index:5;background:#e0ecff}.filename{min-width:360px;max-width:440px;word-break:break-word;font-size:12px;color:#344054;background:#fbfcff}.statuscell{min-width:100px;font-size:12px;font-weight:650}.ok{color:var(--green)}.warn{color:var(--amber)}.bad{color:var(--red)}
+.cell{width:150px}.w-short{width:85px}.w-mid{width:120px}.w-desc{width:360px}.invalid{border-color:var(--red)!important;background:#fff1f0!important}.suggested{background:#f0fff7;border-color:#93d8ad}
+footer{margin-top:auto;border-top:1px solid var(--line);background:#fff;padding:16px 28px;color:var(--muted)}
+@media(max-width:1100px){.grid{grid-template-columns:1fr}.table-wrap{height:60vh}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Filnavn til Asta XML</h1>
+  <p>Importer ferdig navngitte filer, tolk filnavnet til metadata, kontroller tabellen og eksporter XML til Asta-import.</p>
+</header>
+<main>
+<section class="grid">
+  <aside class="card">
+    <h2>1. Legg inn filnavn</h2>
+    <div id="drop" class="drop">
+      <strong>Dra filer hit</strong>
+      <div class="small">Eller velg filer manuelt. Kun filnavnet leses.</div>
+      <label class="btn" for="fileInput">Velg filer</label>
+      <input id="fileInput" type="file" multiple>
+    </div>
+    <h3>Lim inn filnavn</h3>
+    <textarea id="pasteBox" placeholder="Ett filnavn per linje, f.eks.&#10;02571-108391-00U-B-210-40-001_Blad 103_Avd B_Blokk D_Fundamentplan.pdf"></textarea>
+    <div class="row" style="margin-top:8px">
+      <button id="parsePasteBtn">Tolk innlimte filnavn</button>
+      <button id="clearBtn" class="red">Tøm</button>
+    </div>
+
+    <h2 style="margin-top:18px">2. Standardverdier</h2>
+    <label class="small">Arkivenhetid/mappeid</label>
+    <input id="defaultMappeid" placeholder="Lim inn arkivenhetid/mappeid">
+    <label class="small">Informasjonstype</label>
+    <input id="defaultInfo" value="Tegning">
+    <div class="row" style="margin-top:8px">
+      <button id="fillDefaultsBtn" class="secondary">Fyll tomme standardfelt</button>
+    </div>
+
+    <h2 style="margin-top:18px">3. Status</h2>
+    <div class="status">
+      <div class="pill"><b id="countRows">0</b><span>rader</span></div>
+      <div class="pill"><b id="countParsed">0</b><span>tolket OK</span></div>
+      <div class="pill"><b id="countWarn">0</b><span>varsler</span></div>
+      <div class="pill"><b id="countXml">0</b><span>XML-poster</span></div>
+    </div>
+    <div id="message" class="msg" style="margin-top:10px">Ingen filnavn er lagt inn ennå.</div>
+
+    <h2 style="margin-top:18px">4. Eksport</h2>
+    <div class="stack">
+      <button id="downloadXmlBtn" class="green" disabled>Last ned XML</button>
+      <button id="restoreBtn" class="secondary">Gjenopprett lagret økt</button>
+      <button id="clearSavedBtn" class="secondary">Nullstill lagret økt</button>
+    </div>
+    <div class="small" style="margin-top:8px">Arbeidet lagres automatisk i nettleseren.</div>
+  </aside>
+
+  <section>
+    <div class="toolbar">
+      <div class="row">
+        <input id="filterInput" type="search" placeholder="Filtrer i tabellen...">
+        <button id="reparseBtn" class="secondary">Tolk alle på nytt</button>
+      </div>
+      <div class="small">Mønster: <code>[Eiendom]-[Bygg]-[Etasje]-[Fag]-[Systemkode]-[Tegningstype]-[Løpenr]_[Beskrivelse].[ext]</code></div>
+    </div>
+    <div class="table-wrap">
+      <table id="table"><thead></thead><tbody></tbody></table>
+    </div>
+  </section>
+</section>
+</main>
+<footer><strong>Footer:</strong> Dummytekst. Her kan du legge inn forvaltningsansvar, kontaktinfo eller kort veiledning.</footer>
+<script>
+'use strict';
+const STORAGE_KEY='filnavnTilAstaXml.session.v1';
+const columns=[
+  ['status','Status'],['filnavn','Filnavn'],['mappeid','Arkivenhetid/mappeid'],['informasjonstype','Informasjonstype'],
+  ['eiendomsnummer','Eiendomsnummer'],['bygningsnummer','Bygningsnummer'],['etasje','Etasje'],['fag','Fag'],['systemkode','Systemkode'],
+  ['tegningstype','Tegningstype'],['lopenummer','Løpenummer'],['beskrivelse','Beskrivelse'],['aarstall','Årstall'],['originaltTegningsnummer','Originalt tegningsnummer']
+];
+const editable=['mappeid','informasjonstype','eiendomsnummer','bygningsnummer','etasje','fag','systemkode','tegningstype','lopenummer','beskrivelse','aarstall','originaltTegningsnummer'];
+let rows=[];let nextId=1;let saveTimer=null;
+const els={
+  drop:document.getElementById('drop'),fileInput:document.getElementById('fileInput'),pasteBox:document.getElementById('pasteBox'),parsePasteBtn:document.getElementById('parsePasteBtn'),clearBtn:document.getElementById('clearBtn'),
+  defaultMappeid:document.getElementById('defaultMappeid'),defaultInfo:document.getElementById('defaultInfo'),fillDefaultsBtn:document.getElementById('fillDefaultsBtn'),
+  countRows:document.getElementById('countRows'),countParsed:document.getElementById('countParsed'),countWarn:document.getElementById('countWarn'),countXml:document.getElementById('countXml'),message:document.getElementById('message'),
+  downloadXmlBtn:document.getElementById('downloadXmlBtn'),restoreBtn:document.getElementById('restoreBtn'),clearSavedBtn:document.getElementById('clearSavedBtn'),
+  filterInput:document.getElementById('filterInput'),reparseBtn:document.getElementById('reparseBtn'),table:document.getElementById('table'),thead:document.querySelector('#table thead'),tbody:document.querySelector('#table tbody')
+};
+function cleanFileName(name){return String(name||'').replace(/^.*[\\/]/,'').trim();}
+function stripExtension(name){const i=name.lastIndexOf('.');return i>0?name.slice(0,i):name;}
+function extOf(name){const i=name.lastIndexOf('.');return i>0?name.slice(i+1):'';}
+function parseFilename(filename){
+  const full=cleanFileName(filename); const base=stripExtension(full); const ext=extOf(full); const row={
+    id:nextId++, filnavn:full, mappeid:els.defaultMappeid.value.trim(), informasjonstype:els.defaultInfo.value.trim()||'Tegning',
+    eiendomsnummer:'',bygningsnummer:'',etasje:'',fag:'',systemkode:'',tegningstype:'',lopenummer:'',beskrivelse:'',aarstall:'',originaltTegningsnummer:'',parsed:false,warnings:[]
+  };
+  const us=base.indexOf('_');
+  if(us<0){row.beskrivelse=base;row.warnings.push('Mangler underscore før beskrivelse');return row;}
+  const left=base.slice(0,us); const desc=base.slice(us+1).trim(); const parts=left.split('-');
+  if(parts.length!==7){row.beskrivelse=desc;row.warnings.push('Forventet 7 metadatafelt før underscore, fant '+parts.length);return row;}
+  [row.eiendomsnummer,row.bygningsnummer,row.etasje,row.fag,row.systemkode,row.tegningstype,row.lopenummer]=parts.map(x=>x.trim());
+  row.beskrivelse=desc;
+  row.parsed=true;
+  const year=(full.match(/(?:^|[^0-9])((?:18|19|20)\d{2})(?!\d)/)||[])[1]; if(year)row.aarstall=year;
+  const original=(desc.match(/^(Blad\s*\d+[A-Za-zÆØÅæøå]?|Tegning\s*\d+[A-Za-zÆØÅæøå]?|Nr\.?\s*\d+[A-Za-zÆØÅæøå]?)/i)||[])[1];
+  if(original)row.originaltTegningsnummer=original.replace(/\s+/g,' ').trim();
+  validateRow(row);
+  return row;
+}
+function validateRow(r){
+  r.warnings=r.warnings||[];
+  const checks=[['eiendomsnummer',/^\d{5}$/,'Eiendomsnummer bør være 5 siffer'],['bygningsnummer',/^\d{6}$/,'Bygningsnummer bør være 6 siffer'],['fag',/^[A-Za-zÆØÅæøå]$/,'Fag bør være 1 bokstav'],['systemkode',/^\d{3}$/,'Systemkode bør være 3 siffer'],['tegningstype',/^\d{2}$/,'Tegningstype bør være 2 siffer']];
+  for(const [k,rx,msg] of checks){if(r[k] && !rx.test(String(r[k])))r.warnings.push(msg);}
+}
+function addNames(names){
+  const existing=new Set(rows.map(r=>r.filnavn));
+  const added=[];
+  for(const n of names.map(cleanFileName).filter(Boolean)){if(existing.has(n))continue;const row=parseFilename(n);rows.push(row);added.push(row);existing.add(n);}
+  render();
+}
+function renderHeader(){const tr=document.createElement('tr');for(const [,label] of columns){const th=document.createElement('th');th.textContent=label;tr.appendChild(th);}els.thead.innerHTML='';els.thead.appendChild(tr);}
+function render(){
+  renderHeader(); const q=els.filterInput.value.trim().toLowerCase(); els.tbody.innerHTML='';
+  rows.filter(r=>!q||Object.values(r).some(v=>String(v).toLowerCase().includes(q))).forEach(r=>{
+    const tr=document.createElement('tr');
+    for(const [key] of columns){const td=document.createElement('td');
+      if(key==='status'){td.className='statuscell';td.innerHTML=r.parsed?(r.warnings&&r.warnings.length?'<span class="warn">Varsel</span>':'<span class="ok">OK</span>'):'<span class="bad">Feil</span>';td.title=(r.warnings||[]).join('\n');}
+      else if(key==='filnavn'){td.textContent=r.filnavn;td.className='filename';}
+      else{const input=document.createElement('input');input.className='cell '+classFor(key);input.value=r[key]||'';input.dataset.id=r.id;input.dataset.key=key;input.addEventListener('input',onInput);td.appendChild(input);} tr.appendChild(td);
+    }
+    els.tbody.appendChild(tr);
+  });
+  updateStatus();scheduleSave();
+}
+function classFor(k){if(['etasje','fag','tegningstype','lopenummer'].includes(k))return 'w-short';if(['eiendomsnummer','bygningsnummer','systemkode','aarstall'].includes(k))return 'w-mid';if(k==='beskrivelse')return 'w-desc';return '';}
+function onInput(e){const r=rows.find(x=>x.id===Number(e.target.dataset.id));if(!r)return;r[e.target.dataset.key]=e.target.value;r.warnings=[];r.parsed=true;validateRow(r);updateStatus();scheduleSave();}
+function updateStatus(){const parsed=rows.filter(r=>r.parsed).length;const warn=rows.filter(r=>(r.warnings||[]).length).length;els.countRows.textContent=rows.length;els.countParsed.textContent=parsed;els.countWarn.textContent=warn;els.countXml.textContent=rows.length;els.downloadXmlBtn.disabled=!rows.length;els.message.textContent=rows.length?`Klar. ${parsed} av ${rows.length} rader er tolket uten strukturell feil. ${warn} rader har varsel.`:'Ingen filnavn er lagt inn ennå.';}
+function fillDefaults(){for(const r of rows){if(!r.mappeid)r.mappeid=els.defaultMappeid.value.trim();if(!r.informasjonstype)r.informasjonstype=els.defaultInfo.value.trim()||'Tegning';}render();}
+function reparseAll(){const names=rows.map(r=>r.filnavn);rows=[];nextId=1;addNames(names);}
+function xmlEscape(s){return String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&apos;');}
+function xmlTag(name,val){const v=String(val??'').trim();return v?`    <${name}>${xmlEscape(v)}</${name}>`:`    <${name}/>`;}
+function buildXml(){const lines=['<?xml version="1.0" encoding="UTF-8"?>','<FIL_CONTENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">'];
+  for(const r of rows){lines.push('  <FIL>');lines.push(xmlTag('mappeid',r.mappeid));lines.push(xmlTag('filnavn',r.filnavn));lines.push(xmlTag('etasje',r.etasje));lines.push(xmlTag('tegningstype',r.tegningstype));lines.push(xmlTag('lopenumme',r.lopenummer));lines.push(xmlTag('fag',r.fag));lines.push(xmlTag('systemkode',r.systemkode));lines.push(xmlTag('informasjonstype',r.informasjonstype));lines.push(xmlTag('beskrivelse',r.beskrivelse));lines.push(xmlTag('dato_aarstall',r.aarstall));if(String(r.originaltTegningsnummer||'').trim())lines.push(xmlTag('originalt_tegningsnummer',r.originaltTegningsnummer));lines.push('  </FIL>');}
+  lines.push('</FIL_CONTENT>');return lines.join('\r\n');}
+function download(filename,content,type){const blob=new Blob([content],{type:type+';charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=filename;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},0);}
+function stamp(){return new Date().toISOString().slice(0,10).replaceAll('-','');}
+function save(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify({rows,nextId,mappeid:els.defaultMappeid.value,info:els.defaultInfo.value}));}catch(e){}}
+function scheduleSave(){clearTimeout(saveTimer);saveTimer=setTimeout(save,150)}
+function restore(){try{const raw=localStorage.getItem(STORAGE_KEY);if(!raw)return;const data=JSON.parse(raw);if(Array.isArray(data.rows))rows=data.rows;if(Number.isFinite(data.nextId))nextId=data.nextId;if(typeof data.mappeid==='string')els.defaultMappeid.value=data.mappeid;if(typeof data.info==='string')els.defaultInfo.value=data.info;render();}catch(e){}}
+function clearSaved(){localStorage.removeItem(STORAGE_KEY);}
+els.fileInput.addEventListener('change',e=>addNames(Array.from(e.target.files).map(f=>f.name)));
+els.parsePasteBtn.addEventListener('click',()=>addNames(els.pasteBox.value.split(/\r?\n/)));
+els.clearBtn.addEventListener('click',()=>{rows=[];nextId=1;render();});
+els.fillDefaultsBtn.addEventListener('click',fillDefaults);
+els.reparseBtn.addEventListener('click',reparseAll);
+els.filterInput.addEventListener('input',render);
+els.downloadXmlBtn.addEventListener('click',()=>download(`asta_xml_fra_filnavn_${stamp()}.xml`,buildXml(),'application/xml'));
+els.restoreBtn.addEventListener('click',restore);els.clearSavedBtn.addEventListener('click',clearSaved);
+els.defaultMappeid.addEventListener('input',scheduleSave);els.defaultInfo.addEventListener('input',scheduleSave);
+els.drop.addEventListener('dragover',e=>{e.preventDefault();els.drop.classList.add('drag')});els.drop.addEventListener('dragleave',()=>els.drop.classList.remove('drag'));els.drop.addEventListener('drop',e=>{e.preventDefault();els.drop.classList.remove('drag');addNames(Array.from(e.dataTransfer.files||[]).map(f=>f.name));});
+window.addEventListener('beforeunload',save);
+restore();render();
+</script>
+</body>
+</html>
